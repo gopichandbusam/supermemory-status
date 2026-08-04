@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; upgrade-insecure-requests">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Supermemory public build journal</title>
+  <link rel="stylesheet" href="assets/site.css">
+  <script type="module" src="assets/site.js"></script>
+</head>
+<body>
+  <a href="#main-content">Skip to main content</a>
+  <header>
+    <p>Supermemory</p>
+    <p>Public build journal</p>
+  </header>
+  <main id="main-content" tabindex="-1" data-status-shell="online">
+    <section data-section="hero" aria-labelledby="hero-heading">
+      <p>Curated project update</p>
+      <h1 id="hero-heading">Small Mac. Long memory.</h1>
+      <p data-project-name data-status-content hidden>Supermemory</p>
+      <p data-project-tagline data-status-content hidden>A careful public journal for a private project.</p>
+      <div aria-hidden="true">
+        <span>o</span><span>o</span><span>o</span><span>o</span><span>o</span>
+      </div>
+    </section>
+
+    <section data-section="status" aria-labelledby="launch-heading">
+      <h2 id="launch-heading">Launch progress and deployment status</h2>
+      <p data-offline-notice aria-live="polite"></p>
+      <div data-status-fallback role="status" aria-live="polite">
+        <p>Curated project status is temporarily unavailable.</p>
+        <p>Deployment status: Not launched. <span>Not a live health check</span>.</p>
+        <p>Last curated update: <time datetime="2026-08-04">August 4, 2026</time></p>
+      </div>
+      <div data-status-content hidden>
+        <section aria-labelledby="progress-heading">
+          <h3 id="progress-heading">Launch progress</h3>
+          <p data-progress-stage></p>
+          <progress max="100" value="0" aria-labelledby="progress-heading" aria-describedby="progress-summary"></progress>
+          <p id="progress-summary" data-progress-label></p>
+        </section>
+        <section aria-labelledby="deployment-heading">
+          <h3 id="deployment-heading">Deployment status</h3>
+          <p data-deployment-label></p>
+          <p data-deployment-note></p>
+        </section>
+        <section aria-labelledby="verification-heading">
+          <h3 id="verification-heading">Verification</h3>
+          <ul data-verification></ul>
+        </section>
+      </div>
+    </section>
+
+    <section data-section="roadmap" aria-labelledby="roadmap-heading">
+      <h2 id="roadmap-heading">Roadmap</h2>
+      <div data-status-content hidden>
+        <section aria-labelledby="completed-heading">
+          <h3 id="completed-heading">Completed</h3>
+          <ul data-milestones="completed"></ul>
+        </section>
+        <section aria-labelledby="current-heading">
+          <h3 id="current-heading">Building now</h3>
+          <ul data-milestones="current"></ul>
+        </section>
+        <section aria-labelledby="next-heading">
+          <h3 id="next-heading">Next</h3>
+          <ul data-milestones="next"></ul>
+        </section>
+        <section aria-labelledby="gated-heading">
+          <h3 id="gated-heading">Launch gate</h3>
+          <ul data-milestones="gated"></ul>
+        </section>
+      </div>
+    </section>
+
+    <section data-section="updates" data-status-content hidden aria-labelledby="updates-heading">
+      <h2 id="updates-heading">Recent updates</h2>
+      <ol data-updates></ol>
+    </section>
+
+    <section data-section="connection" aria-labelledby="connection-heading">
+      <h2 id="connection-heading">How it fits together</h2>
+      <ol>
+        <li>Mac stores curated memories.</li>
+        <li>MCP connects approved tools.</li>
+        <li>Claude and ChatGPT reason with approved context.</li>
+      </ol>
+    </section>
+
+    <section data-section="safety" aria-labelledby="safety-heading">
+      <h2 id="safety-heading">Public safety promises</h2>
+      <ul>
+        <li>This page contains curated project updates, not a live check.</li>
+        <li>It does not publish memories, credentials, or private diagnostics.</li>
+        <li>No forms, measurement, or tracking are used here.</li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>Built with care for long-lived context. This independent project is not endorsed by Anthropic or OpenAI.</p>
+    <p data-status-content hidden>Last curated update: <time data-last-updated></time></p>
+  </footer>
+</body>
+</html>

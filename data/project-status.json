@@ -1,0 +1,68 @@
+{
+	"schemaVersion": 1,
+	"project": {
+		"name": "Gopichand’s Private Supermemory",
+		"tagline": "A durable memory layer for AI applications."
+	},
+	"launchProgress": {
+		"percent": 30,
+		"stage": "Foundation",
+		"label": "30% complete"
+	},
+	"deployment": {
+		"state": "not-launched",
+		"label": "Not launched",
+		"note": "Not a live health check"
+	},
+	"lastUpdated": {
+		"iso": "2026-08-04",
+		"display": "August 4, 2026"
+	},
+	"milestones": {
+		"completed": ["SQLite foundations accepted"],
+		"current": ["August 4 website status milestone"],
+		"next": ["Publish the public status site"],
+		"gated": ["Launch approval"]
+	},
+	"verification": [
+		{
+			"label": "Contract coverage",
+			"passed": 29,
+			"total": 29
+		},
+		{
+			"label": "Public safety coverage",
+			"passed": 22,
+			"total": 22
+		},
+		{
+			"label": "Schema validation coverage",
+			"passed": 23,
+			"total": 23
+		},
+		{
+			"label": "Fixture validation coverage",
+			"passed": 31,
+			"total": 31
+		},
+		{
+			"label": "Publication readiness coverage",
+			"passed": 37,
+			"total": 37
+		}
+	],
+	"updates": [
+		{
+			"date": {
+				"iso": "2026-08-04",
+				"display": "August 4, 2026"
+			},
+			"title": "Website status milestone",
+			"summary": "Created the public status contract and first curated update.",
+			"evidence": [
+				"SQLite foundations accepted",
+				"Public contract reviewed"
+			]
+		}
+	]
+}
