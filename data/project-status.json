@@ -25,7 +25,7 @@
 			"Seven-file public artifact published",
 			"Owner contracts, backup safety, and operations runbook accepted",
 			"Protected owner session UI and browser artifact verified",
-			"Graph interface protections and model-file primitive accepted",
+			"Graph, model-file, and read-schema runtime protections accepted",
 			"Health monitor launch policy verified",
 			"Durable scheduled admission and supervisor lifecycle verified"
 		],
@@ -85,16 +85,16 @@
 				"iso": "2026-08-05",
 				"display": "August 5, 2026"
 			},
-			"title": "Protected session UI, durable admission, and model-file checkpoint",
-			"summary": "The protected session UI, durable scheduled admission, and safe model-file primitive are verified locally. Accepted means durably queued only; execution, restore, installer integration, browser data access, and deployment remain unfinished.",
+			"title": "Read-schema runtime compatibility checkpoint",
+			"summary": "A 17-test false green exposed lazy read-schema initialization under Bun. The root cause is fixed, focused checks pass, and no deployment occurred.",
 			"evidence": [
-				"Darwin arm64 model-file primitive passed 9 checks at 5f682391; installer integration remains unfinished",
+				"Read schema passed 33 checks and authenticated app passed 69 after correcting a 17-test false green",
 				"Browser client passed 9 checks at 08a975d8; UI controller passed 20 and artifact passed 27 at fe700f1d; admin types and build pass",
 				"Supervisor ready dispatch is accepted at 53e3a515",
 				"SQLite scheduled admission is durable at ae27f3a3",
 				"Production ready-adapter wiring is accepted at 542f6776",
-				"Mac operations passed 344 checks across 27 files with 1701 assertions",
-				"Protected session UI is connected; browser data access remains unfinished",
+				"Local origin passed 1363 checks across all 41 independently reported unit files",
+				"Status publication run 31056355484 succeeded; Pages built, DNS absent, and no deployment occurred",
 				"Executor, restore, and installer incomplete; no production journal state was touched; model, network, runtime, service, backup, and Keychain unchanged"
 			]
 		},
