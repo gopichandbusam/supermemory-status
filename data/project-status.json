@@ -24,22 +24,24 @@
 			"Curated status publisher verified",
 			"Seven-file public artifact published",
 			"Owner contracts, backup safety, and operations runbook accepted",
-			"Protected owner routes and browser artifact verified",
-			"Graph interface race protections accepted",
+			"Protected owner session UI and browser artifact verified",
+			"Graph interface protections and model-file primitive accepted",
 			"Health monitor launch policy verified",
-			"Authenticated supervisor lifecycle and reversible service controls verified"
+			"Durable scheduled admission and supervisor lifecycle verified"
 		],
-		"current": ["Complete durable backup acceptance and connect browser data"],
+		"current": [
+			"Execute durably queued backups, connect browser data, and integrate the model installer"
+		],
 		"next": [
-			"Connect the browser interface to protected sessions and stored data, then complete domain setup"
+			"Connect curated data to the protected browser UI, then complete domain setup"
 		],
 		"gated": ["Account access and launch approval"]
 	},
 	"verification": [
 		{
 			"label": "MCP core coverage",
-			"passed": 795,
-			"total": 795
+			"passed": 796,
+			"total": 796
 		},
 		{
 			"label": "Status site coverage",
@@ -58,8 +60,8 @@
 		},
 		{
 			"label": "Mac operations coverage",
-			"passed": 331,
-			"total": 331
+			"passed": 344,
+			"total": 344
 		},
 		{
 			"label": "Supervisor lifecycle coverage",
@@ -83,17 +85,17 @@
 				"iso": "2026-08-05",
 				"display": "August 5, 2026"
 			},
-			"title": "Wired local admin session checkpoint",
-			"summary": "Durable admin authority, its owner client, deployment bindings, and the exact session route are wired and verified locally. Browser data access and deployment remain unfinished.",
+			"title": "Protected session UI, durable admission, and model-file checkpoint",
+			"summary": "The protected session UI, durable scheduled admission, and safe model-file primitive are verified locally. Accepted means durably queued only; execution, restore, installer integration, browser data access, and deployment remain unfinished.",
 			"evidence": [
-				"Private MCP passed 795 checks across 56 files",
-				"Admin authority and session boundary passed 79 focused checks",
-				"Durable admin authority and fixed owner client are wired locally",
-				"Admin deployment binding and second migration are configured",
-				"Independent admin login limiting uses namespace 10092",
-				"The exact admin session route is mounted and its Worker dry run passed",
-				"Browser interface and stored data remain disconnected",
-				"Backups remain incomplete and public access remains offline"
+				"Darwin arm64 model-file primitive passed 9 checks at 5f682391; installer integration remains unfinished",
+				"Browser client passed 9 checks at 08a975d8; UI controller passed 20 and artifact passed 27 at fe700f1d; admin types and build pass",
+				"Supervisor ready dispatch is accepted at 53e3a515",
+				"SQLite scheduled admission is durable at ae27f3a3",
+				"Production ready-adapter wiring is accepted at 542f6776",
+				"Mac operations passed 344 checks across 27 files with 1701 assertions",
+				"Protected session UI is connected; browser data access remains unfinished",
+				"Executor, restore, and installer incomplete; no production journal state was touched; model, network, runtime, service, backup, and Keychain unchanged"
 			]
 		},
 		{
