@@ -24,17 +24,24 @@
 			"Curated status publisher verified",
 			"Seven-file public artifact published",
 			"Owner contract and backup safety checks accepted",
-			"Closed origin routing and exact backup sources verified"
+			"Protected owner routes and browser artifact verified",
+			"Graph interface race protections accepted",
+			"Health monitor launch policy verified",
+			"Authenticated supervisor request boundaries verified"
 		],
-		"current": ["Connect the owner shell to protected sessions"],
-		"next": ["Complete the backup workflow and status-domain DNS"],
+		"current": [
+			"Build the local supervisor listener and durable operation lifecycle"
+		],
+		"next": [
+			"Connect protected sessions and stored data, then complete domain setup"
+		],
 		"gated": ["Account access and launch approval"]
 	},
 	"verification": [
 		{
 			"label": "MCP core coverage",
-			"passed": 720,
-			"total": 720
+			"passed": 726,
+			"total": 726
 		},
 		{
 			"label": "Status site coverage",
@@ -42,24 +49,24 @@
 			"total": 317
 		},
 		{
-			"label": "OAuth fixture coverage",
-			"passed": 9,
-			"total": 9
+			"label": "Admin route coverage",
+			"passed": 10,
+			"total": 10
 		},
 		{
-			"label": "Runner coverage",
-			"passed": 6,
-			"total": 6
+			"label": "Graph interface state coverage",
+			"passed": 16,
+			"total": 16
 		},
 		{
-			"label": "Tool lifecycle coverage",
-			"passed": 18,
-			"total": 18
+			"label": "Mac operations coverage",
+			"passed": 280,
+			"total": 280
 		},
 		{
-			"label": "iCloud resolver coverage",
-			"passed": 15,
-			"total": 15
+			"label": "Supervisor request coverage",
+			"passed": 64,
+			"total": 64
 		},
 		{
 			"label": "Admin contract coverage",
@@ -78,17 +85,17 @@
 				"iso": "2026-08-05",
 				"display": "August 5, 2026"
 			},
-			"title": "Closed origin routing and backup source milestone",
-			"summary": "Verified a closed origin-routing configuration and an exact four-source backup boundary. Neither configuration was applied: the owner shell remains unserved, no backup ran, and final-domain DNS and HTTPS remain pending.",
+			"title": "Authenticated Mac operations checkpoint",
+			"summary": "Graph interface races are bounded, the health monitor path is rendered, and authenticated status and backup requests are validated. Deployment remains not launched.",
 			"evidence": [
-				"Controlled local acceptance passed",
-				"Curated seven-file public artifact published; DNS and TLS remain pending",
-				"iCloud resolver passed with no active directory found",
-				"Admin contract passed 112 checks",
-				"Signed-out owner shell built but not connected; artifact verifier passed 27 checks",
-				"Closed origin routing passed 6 checks and ends in deny rules",
-				"Backup safety passed 102 checks, including 8 exact-source boundary checks",
-				"No Keychain item, backup, service, or external infrastructure was created"
+				"Protected Worker passed 726 checks across 48 files",
+				"Graph interface state passed 16 checks",
+				"Mac operations passed 280 checks across 19 files, including 41 health monitor checks",
+				"Supervisor status requests passed 20 checks",
+				"Scheduled backup requests passed 21 checks",
+				"Authenticated request dispatch passed 23 checks with bounded authentication copy lifetime and inert composition rejection",
+				"No durable backup operation was accepted; setup remains incomplete",
+				"Public access remains offline; protected sessions and stored data are disconnected; no installation or external account change was made"
 			]
 		},
 		{
