@@ -5,9 +5,9 @@
 		"tagline": "A durable memory layer for AI applications."
 	},
 	"launchProgress": {
-		"percent": 68,
-		"stage": "Private integration",
-		"label": "68% complete"
+		"percent": 72,
+		"stage": "Mac service integration",
+		"label": "72% complete"
 	},
 	"deployment": {
 		"state": "not-launched",
@@ -23,15 +23,13 @@
 			"Local connection lifecycle accepted",
 			"Curated status publisher verified",
 			"Seven-file public artifact published",
-			"Owner contract and backup safety checks accepted",
+			"Owner contracts, backup safety, and operations runbook accepted",
 			"Protected owner routes and browser artifact verified",
 			"Graph interface race protections accepted",
 			"Health monitor launch policy verified",
-			"Authenticated supervisor request boundaries verified"
+			"Authenticated supervisor lifecycle and reversible service controls verified"
 		],
-		"current": [
-			"Build the local supervisor listener and durable operation lifecycle"
-		],
+		"current": ["Complete durable backup acceptance and connect owner data"],
 		"next": [
 			"Connect protected sessions and stored data, then complete domain setup"
 		],
@@ -40,8 +38,8 @@
 	"verification": [
 		{
 			"label": "MCP core coverage",
-			"passed": 726,
-			"total": 726
+			"passed": 738,
+			"total": 738
 		},
 		{
 			"label": "Status site coverage",
@@ -49,9 +47,9 @@
 			"total": 317
 		},
 		{
-			"label": "Admin route coverage",
-			"passed": 10,
-			"total": 10
+			"label": "Admin boundary coverage",
+			"passed": 22,
+			"total": 22
 		},
 		{
 			"label": "Graph interface state coverage",
@@ -60,18 +58,18 @@
 		},
 		{
 			"label": "Mac operations coverage",
-			"passed": 280,
-			"total": 280
+			"passed": 321,
+			"total": 321
 		},
 		{
-			"label": "Supervisor request coverage",
-			"passed": 64,
-			"total": 64
+			"label": "Supervisor lifecycle coverage",
+			"passed": 22,
+			"total": 22
 		},
 		{
-			"label": "Admin contract coverage",
-			"passed": 112,
-			"total": 112
+			"label": "Service lifecycle coverage",
+			"passed": 26,
+			"total": 26
 		},
 		{
 			"label": "Backup safety coverage",
@@ -85,17 +83,17 @@
 				"iso": "2026-08-05",
 				"display": "August 5, 2026"
 			},
-			"title": "Authenticated Mac operations checkpoint",
-			"summary": "Graph interface races are bounded, the health monitor path is rendered, and authenticated status and backup requests are validated. Deployment remains not launched.",
+			"title": "Admin boundary and operations runbook checkpoint",
+			"summary": "The unmounted admin session boundary and owner operations runbook are verified locally. Production sessions remain disconnected and deployment remains not launched.",
 			"evidence": [
-				"Protected Worker passed 726 checks across 48 files",
-				"Graph interface state passed 16 checks",
-				"Mac operations passed 280 checks across 19 files, including 41 health monitor checks",
-				"Supervisor status requests passed 20 checks",
-				"Scheduled backup requests passed 21 checks",
-				"Authenticated request dispatch passed 23 checks with bounded authentication copy lifetime and inert composition rejection",
-				"No durable backup operation was accepted; setup remains incomplete",
-				"Public access remains offline; protected sessions and stored data are disconnected; no installation or external account change was made"
+				"Private MCP passed 738 checks across 49 files",
+				"The unmounted admin session boundary passed 12 focused checks",
+				"Durable session authority and browser data wiring remain disconnected",
+				"The owner runbook records staged checks, stop rules, rollback, and current blockers",
+				"Mac operations passed 321 checks across 26 files with 1545 assertions",
+				"Backup remains configuration incomplete and no durable operation was accepted",
+				"Install and uninstall commands were built and verified but were not executed",
+				"Public access remains offline and no service, Cloudflare resource, or DNS record changed"
 			]
 		},
 		{
