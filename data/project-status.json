@@ -38,8 +38,8 @@
 	"verification": [
 		{
 			"label": "MCP core coverage",
-			"passed": 738,
-			"total": 738
+			"passed": 780,
+			"total": 780
 		},
 		{
 			"label": "Status site coverage",
@@ -48,8 +48,8 @@
 		},
 		{
 			"label": "Admin boundary coverage",
-			"passed": 22,
-			"total": 22
+			"passed": 64,
+			"total": 64
 		},
 		{
 			"label": "Graph interface state coverage",
@@ -58,8 +58,8 @@
 		},
 		{
 			"label": "Mac operations coverage",
-			"passed": 321,
-			"total": 321
+			"passed": 331,
+			"total": 331
 		},
 		{
 			"label": "Supervisor lifecycle coverage",
@@ -83,17 +83,17 @@
 				"iso": "2026-08-05",
 				"display": "August 5, 2026"
 			},
-			"title": "Admin boundary and operations runbook checkpoint",
-			"summary": "The unmounted admin session boundary and owner operations runbook are verified locally. Production sessions remain disconnected and deployment remains not launched.",
+			"title": "Durable admin authority and preflight checkpoint",
+			"summary": "Durable admin authority, SQLite persistence, and session foundations are verified locally but remain unmounted. Durable Object, browser client, and router wiring are still required; deployment remains not launched.",
 			"evidence": [
-				"Private MCP passed 738 checks across 49 files",
-				"The unmounted admin session boundary passed 12 focused checks",
-				"Durable session authority and browser data wiring remain disconnected",
-				"The owner runbook records staged checks, stop rules, rollback, and current blockers",
-				"Mac operations passed 321 checks across 26 files with 1545 assertions",
+				"Private MCP passed 780 checks across 52 files",
+				"Admin authority and session boundaries passed 64 focused checks",
+				"Durable Object, browser client, and router wiring remain incomplete",
+				"Managed-key preflight is accepted and read only",
+				"Mac operations passed 331 checks across 26 files with 1591 assertions",
+				"Protected sessions and stored data remain disconnected",
 				"Backup remains configuration incomplete and no durable operation was accepted",
-				"Install and uninstall commands were built and verified but were not executed",
-				"Public access remains offline and no service, Cloudflare resource, or DNS record changed"
+				"Public access remains offline and deployment remains not launched"
 			]
 		},
 		{
