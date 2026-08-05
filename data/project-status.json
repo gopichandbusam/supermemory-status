@@ -21,10 +21,13 @@
 	"milestones": {
 		"completed": [
 			"Local connection lifecycle accepted",
-			"Curated status publisher verified"
+			"Curated status publisher verified",
+			"Seven-file public artifact published",
+			"Owner contract and backup safety checks accepted",
+			"Closed origin routing and exact backup sources verified"
 		],
-		"current": ["Owner dashboard and backup acceptance"],
-		"next": ["Connect the status domain and install local components"],
+		"current": ["Connect the owner shell to protected sessions"],
+		"next": ["Complete the backup workflow and status-domain DNS"],
 		"gated": ["Account access and launch approval"]
 	},
 	"verification": [
@@ -52,6 +55,21 @@
 			"label": "Tool lifecycle coverage",
 			"passed": 18,
 			"total": 18
+		},
+		{
+			"label": "iCloud resolver coverage",
+			"passed": 15,
+			"total": 15
+		},
+		{
+			"label": "Admin contract coverage",
+			"passed": 112,
+			"total": 112
+		},
+		{
+			"label": "Backup safety coverage",
+			"passed": 102,
+			"total": 102
 		}
 	],
 	"updates": [
@@ -60,14 +78,17 @@
 				"iso": "2026-08-05",
 				"display": "August 5, 2026"
 			},
-			"title": "Local MCP acceptance milestone",
-			"summary": "Completed isolated browser authorization and the approved tool lifecycle. Added a responsive public journal with guarded publishing.",
+			"title": "Closed origin routing and backup source milestone",
+			"summary": "Verified a closed origin-routing configuration and an exact four-source backup boundary. Neither configuration was applied: the owner shell remains unserved, no backup ran, and final-domain DNS and HTTPS remain pending.",
 			"evidence": [
 				"Controlled local acceptance passed",
-				"Curated publisher privacy checks passed",
-				"Responsive visual review passed",
-				"Fresh-run dependency gate added",
-				"Portable runtime gate added"
+				"Curated seven-file public artifact published; DNS and TLS remain pending",
+				"iCloud resolver passed with no active directory found",
+				"Admin contract passed 112 checks",
+				"Signed-out owner shell built but not connected; artifact verifier passed 27 checks",
+				"Closed origin routing passed 6 checks and ends in deny rules",
+				"Backup safety passed 102 checks, including 8 exact-source boundary checks",
+				"No Keychain item, backup, service, or external infrastructure was created"
 			]
 		},
 		{
