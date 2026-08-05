@@ -5,9 +5,9 @@
 		"tagline": "A durable memory layer for AI applications."
 	},
 	"launchProgress": {
-		"percent": 30,
-		"stage": "Foundation",
-		"label": "30% complete"
+		"percent": 68,
+		"stage": "Private integration",
+		"label": "68% complete"
 	},
 	"deployment": {
 		"state": "not-launched",
@@ -15,43 +15,61 @@
 		"note": "Not a live health check"
 	},
 	"lastUpdated": {
-		"iso": "2026-08-04",
-		"display": "August 4, 2026"
+		"iso": "2026-08-05",
+		"display": "August 5, 2026"
 	},
 	"milestones": {
-		"completed": ["SQLite foundations accepted"],
-		"current": ["August 4 website status milestone"],
-		"next": ["Publish the public status site"],
-		"gated": ["Launch approval"]
+		"completed": [
+			"Local connection lifecycle accepted",
+			"Curated status publisher verified"
+		],
+		"current": ["Owner dashboard and backup acceptance"],
+		"next": ["Connect the status domain and install local components"],
+		"gated": ["Account access and launch approval"]
 	},
 	"verification": [
 		{
-			"label": "Contract coverage",
-			"passed": 29,
-			"total": 29
+			"label": "MCP core coverage",
+			"passed": 720,
+			"total": 720
 		},
 		{
-			"label": "Public safety coverage",
-			"passed": 22,
-			"total": 22
+			"label": "Status site coverage",
+			"passed": 317,
+			"total": 317
 		},
 		{
-			"label": "Schema validation coverage",
-			"passed": 23,
-			"total": 23
+			"label": "OAuth fixture coverage",
+			"passed": 9,
+			"total": 9
 		},
 		{
-			"label": "Fixture validation coverage",
-			"passed": 31,
-			"total": 31
+			"label": "Runner coverage",
+			"passed": 6,
+			"total": 6
 		},
 		{
-			"label": "Publication readiness coverage",
-			"passed": 37,
-			"total": 37
+			"label": "Tool lifecycle coverage",
+			"passed": 18,
+			"total": 18
 		}
 	],
 	"updates": [
+		{
+			"date": {
+				"iso": "2026-08-05",
+				"display": "August 5, 2026"
+			},
+			"title": "Local MCP acceptance milestone",
+			"summary": "Completed isolated browser authorization and the approved tool lifecycle. Added a responsive public journal with guarded publishing.",
+			"evidence": [
+				"Controlled local acceptance passed",
+				"Curated publisher privacy checks passed",
+				"Responsive visual review passed",
+				"Fresh-run dependency gate added",
+				"Portable runtime gate added"
+			]
+		},
 		{
 			"date": {
 				"iso": "2026-08-04",
@@ -59,10 +77,7 @@
 			},
 			"title": "Website status milestone",
 			"summary": "Created the public status contract and first curated update.",
-			"evidence": [
-				"SQLite foundations accepted",
-				"Public contract reviewed"
-			]
+			"evidence": ["SQLite foundations accepted", "Public contract reviewed"]
 		}
 	]
 }
