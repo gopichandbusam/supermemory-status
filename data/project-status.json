@@ -6,7 +6,7 @@
 	},
 	"launchProgress": {
 		"percent": 83,
-		"stage": "OAuth request authority verified",
+		"stage": "Owner connection visibility verified",
 		"label": "Launch remains gated"
 	},
 	"deployment": {
@@ -20,7 +20,7 @@
 	},
 	"milestones": {
 		"completed": [
-			"Durable OAuth request authority and isolated restore accepted",
+			"Owner-safe OAuth connection visibility and isolated restore accepted",
 			"Curated status publisher isolated and verified",
 			"Seven-file public artifact published",
 			"Owner contracts, backup safety, and operations runbook accepted",
@@ -38,8 +38,8 @@
 	"verification": [
 		{
 			"label": "Private MCP application coverage",
-			"passed": 859,
-			"total": 859
+			"passed": 875,
+			"total": 875
 		},
 		{
 			"label": "Status site coverage",
@@ -48,8 +48,8 @@
 		},
 		{
 			"label": "Admin contract coverage",
-			"passed": 129,
-			"total": 129
+			"passed": 155,
+			"total": 155
 		},
 		{
 			"label": "Browser workspace coverage",
@@ -83,11 +83,13 @@
 				"iso": "2026-08-06",
 				"display": "August 6, 2026"
 			},
-			"title": "OAuth completion and authority checkpoint accepted",
-			"summary": "Durable OAuth completion plus MCP and citation authority enforcement passed review. Launch remains gated by owner setup and live acceptance.",
+			"title": "Owner connection visibility checkpoint accepted",
+			"summary": "The protected owner read boundary now lists redacted OAuth connections through bounded durable pagination. Launch remains gated by owner setup and live acceptance.",
 			"evidence": [
-				"Focused authority coverage passed 71 of 71 checks across 4 files",
-				"Full private coverage passed 859 of 859 checks across 60 files",
+				"Focused owner connection coverage passed 113 of 113 checks",
+				"Shared admin contract coverage passed 155 of 155 checks across 2 files",
+				"Full private coverage passed 875 of 875 checks across 61 files",
+				"Connection responses expose only redacted owner fields",
 				"Local end-to-end acceptance passed",
 				"Deterministic artifact digest and closure verification passed",
 				"Protected values, iCloud backup, services, external routing, and clients remain inactive"
