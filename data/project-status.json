@@ -6,8 +6,8 @@
 	},
 	"launchProgress": {
 		"percent": 79,
-		"stage": "Verified build checkpoint",
-		"label": "79% complete"
+		"stage": "MCP deployment gate verified",
+		"label": "Launch remains gated"
 	},
 	"deployment": {
 		"state": "not-launched",
@@ -20,7 +20,7 @@
 	},
 	"milestones": {
 		"completed": [
-			"Local connection lifecycle accepted",
+			"Controlled local connection and MCP deployment gates accepted",
 			"Curated status publisher isolated and verified",
 			"Seven-file public artifact published",
 			"Owner contracts, backup safety, and operations runbook accepted",
@@ -29,13 +29,13 @@
 			"Verified model download and manifest publication accepted",
 			"Verified model operator and scheduled backup execution accepted"
 		],
-		"current": ["Complete restore and release dependency gates"],
-		"next": ["Verify the local service launch, then complete domain setup"],
-		"gated": ["Account access and launch approval"]
+		"current": ["Promote accepted local components and complete owner setup"],
+		"next": ["Configure external routing and complete client acceptance"],
+		"gated": ["External account access and launch approval"]
 	},
 	"verification": [
 		{
-			"label": "MCP core coverage",
+			"label": "Earlier MCP core coverage",
 			"passed": 811,
 			"total": 811
 		},
@@ -81,17 +81,35 @@
 				"iso": "2026-08-05",
 				"display": "August 5, 2026"
 			},
-			"title": "Verified build checkpoint",
-			"summary": "The responsive owner workspace is connected locally, scheduled backup execution is connected to its durable queue, and status publishing has a dedicated frozen toolchain. Launch remains gated.",
+			"title": "MCP deployment gate verified",
+			"summary": "The reviewed MCP bundle and complete serial test gate passed locally. External launch and client setup remain gated.",
 			"evidence": [
-				"Memory and relationship views now connect through 6 authenticated handler checks and 9 edge route checks",
-				"Browser data reads pass 8 checks and responsive workspace routes pass 9",
-				"Verified model operator and launcher pass 13 focused checks",
-				"Scheduled backup driver and shutdown-safe worker pass 136 regression checks",
-				"Complete Mac operations coverage passes 434 checks across 33 files",
-				"Restore, observed model installation, service launch, and domain setup remain incomplete",
-				"Status publishing uses a dedicated frozen validation package; prior artifact 763bb0f4 remains available",
-				"No production model, service, backup, Keychain, Cloudflare, DNS, or client state changed"
+				"The complete serial MCP test command exited successfully",
+				"The exact prebuilt deployment bundle dry run passed",
+				"Client metadata requests reject redirects and mismatched response locations",
+				"Client metadata body reads remain time bounded",
+				"Client metadata failures use the redacted application error boundary",
+				"No Cloudflare deployment occurred",
+				"External routing and client acceptance remain incomplete",
+				"No public launch or client connection occurred"
+			]
+		},
+		{
+			"date": {
+				"iso": "2026-08-05",
+				"display": "August 5, 2026"
+			},
+			"title": "Controlled acceptance checkpoint",
+			"summary": "The protected connection flow completed a controlled owner-device acceptance run. Launch and owner account setup remain gated.",
+			"evidence": [
+				"Authenticated connection flow completed in a controlled owner-device run",
+				"Bounded request handling and readiness checks are accepted",
+				"Preview, apply, and recovery behavior is accepted",
+				"Release dependency and edge checks are accepted",
+				"Pinned operating tools are present on the owner device",
+				"The verified asset installer exists but has not run",
+				"Launch, external routing, and client setup remain incomplete",
+				"No public launch or client connection occurred"
 			]
 		},
 		{
