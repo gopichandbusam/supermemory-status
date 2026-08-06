@@ -25,12 +25,12 @@
 			"Seven-file public artifact published",
 			"Owner contracts, backup safety, and operations runbook accepted",
 			"Protected owner session UI and browser artifact verified",
-			"Bounded local admin read boundary verified",
-			"Verified multi-file model preparation boundary accepted",
-			"Database singleton backup execution verified"
+			"Authenticated local admin reads composed",
+			"Verified production model downloader accepted",
+			"Durable backup fence propagation verified"
 		],
 		"current": [
-			"Connect protected browser reads, finish backup execution fencing, and complete the verified model installer"
+			"Connect protected browser reads, publish the model manifest, and build the fixed backup driver"
 		],
 		"next": [
 			"Connect curated data to the protected browser UI, then complete domain setup"
@@ -85,16 +85,16 @@
 				"iso": "2026-08-05",
 				"display": "August 5, 2026"
 			},
-			"title": "Local read, model preparation, and backup safety checkpoint",
-			"summary": "Authenticated local reads, verified multi-file preparation, and database singleton backup execution now have bounded test evidence. Production connection and launch remain gated.",
+			"title": "Production composition and downloader checkpoint",
+			"summary": "Authenticated local reads now share the production listener, the verified model downloader is callable, and durable backup fences reach both driver paths. Launch remains gated.",
 			"evidence": [
 				"Admin memory and preview interface contracts pass 129 checks with bounded collection and response limits",
-				"Two authenticated local admin read routes pass 9 focused checks but are not yet mounted in the production listener",
-				"Model stream, multi-file preparation, no-replace sink, and Darwin adapter pass 8, 4, 17, and 10 focused checks",
-				"Installer path, preserved verifier, and stage identity pass 14, 64, and 82 focused checks",
-				"Backup executor and store pass 38 checks with one database-enforced running schedule and process-race coverage",
-				"Restic execution, restore, protected browser reads, production model download, and service launch remain incomplete",
-				"Prior status run 31059803377 published artifact 7b514b37; Pages built and custom-domain DNS remains absent",
+				"Two authenticated local admin reads pass 9 route checks and 5 production composition checks",
+				"The local production listener keeps the owner and application authorities isolated",
+				"Verified model download passes 6 focused checks; related model preparation checks pass 199",
+				"Backup executor and store pass 39 checks with durable fence values carried into both driver paths",
+				"Protected browser reads, model manifest and command wiring, restic execution, restore, and service launch remain incomplete",
+				"Prior status run 31061060373 published artifact 50c7984c; Pages built and custom-domain DNS remains absent",
 				"No production journal, model, network, runtime, service, backup, Keychain, Cloudflare, DNS, or client state changed"
 			]
 		},
