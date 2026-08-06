@@ -5,9 +5,9 @@
 		"tagline": "A durable memory layer for AI applications."
 	},
 	"launchProgress": {
-		"percent": 75,
-		"stage": "Protected local data path",
-		"label": "75% complete"
+		"percent": 76,
+		"stage": "Verified build checkpoint",
+		"label": "76% complete"
 	},
 	"deployment": {
 		"state": "not-launched",
@@ -27,9 +27,9 @@
 			"Protected owner session and browser artifact verified",
 			"Authenticated local reads and responsive workspace accepted",
 			"Verified model download and manifest publication accepted",
-			"Durable backup fence and snapshot evidence verified"
+			"Durable backup fence, model tree, and SQLite copies verified"
 		],
-		"current": ["Complete the model installer command and backup execution"],
+		"current": ["Complete the model operator command and backup driver"],
 		"next": ["Verify the local service launch, then complete domain setup"],
 		"gated": ["Account access and launch approval"]
 	},
@@ -81,16 +81,16 @@
 				"iso": "2026-08-05",
 				"display": "August 5, 2026"
 			},
-			"title": "Browser workspace and durable publication checkpoint",
-			"summary": "The responsive owner workspace now renders memory and graph views, the model manifest publishes atomically, and backup snapshots carry durable evidence. Launch remains gated.",
+			"title": "Verified build checkpoint",
+			"summary": "The responsive owner workspace is connected locally, the verified model tree is prepared safely, and both SQLite backup copies are now produced consistently. Launch remains gated.",
 			"evidence": [
 				"Browser data reads pass 8 checks and responsive workspace routes pass 9",
 				"Owner-to-origin reads pass 8 behavioral checks and 1 type check",
 				"Memory and relationship views now connect through 6 authenticated handler checks and 9 edge route checks",
-				"Verified model manifest publication passes 7 focused checks after canonical encoding",
-				"Fence-bound snapshot evidence passes within a 67-check safety set; operation source preparation adds 11 focused checks",
-				"Model command wiring, backup execution, restore, service launch, and domain setup remain incomplete",
-				"Prior status run 31061367787 published artifact 290063df; Pages built and custom-domain DNS remains absent",
+				"Verified model tree preparation passes 7 focused checks and its descriptor adapter passes 12",
+				"Fence-bound source preparation passes 11 checks; both SQLite copies add 5 focused checks inside a 64-check backup set",
+				"Model operator wiring, backup driver execution, restore, service launch, and domain setup remain incomplete",
+				"Prior status run 31062642820 published artifact 8d3a649a; Pages built and custom-domain DNS remains absent",
 				"No production model, service, backup, Keychain, Cloudflare, DNS, or client state changed"
 			]
 		},
