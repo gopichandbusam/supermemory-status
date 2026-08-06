@@ -6,7 +6,7 @@
 	},
 	"launchProgress": {
 		"percent": 83,
-		"stage": "Owner connection visibility verified",
+		"stage": "Owner connection settings verified",
 		"label": "Launch remains gated"
 	},
 	"deployment": {
@@ -20,7 +20,7 @@
 	},
 	"milestones": {
 		"completed": [
-			"Owner-safe OAuth connection visibility and isolated restore accepted",
+			"Owner-safe OAuth connection settings and isolated restore accepted",
 			"Curated status publisher isolated and verified",
 			"Seven-file public artifact published",
 			"Owner contracts, backup safety, and operations runbook accepted",
@@ -53,8 +53,8 @@
 		},
 		{
 			"label": "Browser workspace coverage",
-			"passed": 37,
-			"total": 37
+			"passed": 64,
+			"total": 64
 		},
 		{
 			"label": "Mac operations coverage",
@@ -83,15 +83,16 @@
 				"iso": "2026-08-06",
 				"display": "August 6, 2026"
 			},
-			"title": "Owner connection visibility checkpoint accepted",
-			"summary": "The protected owner read boundary now lists redacted OAuth connections through bounded durable pagination. Launch remains gated by owner setup and live acceptance.",
+			"title": "Owner connection settings checkpoint accepted",
+			"summary": "The protected Settings workspace now renders redacted OAuth connections with bounded refresh and cursor pagination. Launch remains gated by owner setup and live acceptance.",
 			"evidence": [
-				"Focused owner connection coverage passed 113 of 113 checks",
+				"Focused connection Settings coverage passed 35 of 35 checks",
+				"Complete admin browser coverage passed 64 of 64 checks",
 				"Shared admin contract coverage passed 155 of 155 checks across 2 files",
 				"Full private coverage passed 875 of 875 checks across 61 files",
-				"Connection responses expose only redacted owner fields",
+				"Connection cards expose only redacted owner fields",
 				"Local end-to-end acceptance passed",
-				"Deterministic artifact digest and closure verification passed",
+				"Deterministic Worker, admin, and widget digests were reproduced; closure passed 55 of 55 checks",
 				"Protected values, iCloud backup, services, external routing, and clients remain inactive"
 			]
 		},
