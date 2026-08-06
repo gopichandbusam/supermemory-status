@@ -6,7 +6,7 @@
 	},
 	"launchProgress": {
 		"percent": 83,
-		"stage": "Pre-activation security verified",
+		"stage": "OAuth request authority verified",
 		"label": "Launch remains gated"
 	},
 	"deployment": {
@@ -20,7 +20,7 @@
 	},
 	"milestones": {
 		"completed": [
-			"Local connection, activation, and isolated restore operators accepted",
+			"Durable OAuth request authority and isolated restore accepted",
 			"Curated status publisher isolated and verified",
 			"Seven-file public artifact published",
 			"Owner contracts, backup safety, and operations runbook accepted",
@@ -38,8 +38,8 @@
 	"verification": [
 		{
 			"label": "Private MCP application coverage",
-			"passed": 838,
-			"total": 838
+			"passed": 859,
+			"total": 859
 		},
 		{
 			"label": "Status site coverage",
@@ -83,15 +83,13 @@
 				"iso": "2026-08-06",
 				"display": "August 6, 2026"
 			},
-			"title": "Pre-activation security checkpoint accepted",
-			"summary": "The tracked-file safety scan passed and the durable OAuth connection-authority foundation passed review. Launch remains gated by owner setup and live acceptance.",
+			"title": "OAuth completion and authority checkpoint accepted",
+			"summary": "Durable OAuth completion plus MCP and citation authority enforcement passed review. Launch remains gated by owner setup and live acceptance.",
 			"evidence": [
-				"Tracked-file scan checked all 1,581 paths; text files were content-scanned and oversized binary files received a bounded binary probe",
-				"Scanner edge cases passed 19 of 19 checks",
-				"Synthetic documentation and test fixtures were sanitized without exposing values",
-				"OAuth connection lifecycle and persistence passed 53 focused checks",
-				"All private TypeScript projects passed",
-				"Connection authority is not yet wired into live OAuth and MCP requests",
+				"Focused authority coverage passed 71 of 71 checks across 4 files",
+				"Full private coverage passed 859 of 859 checks across 60 files",
+				"Local end-to-end acceptance passed",
+				"Deterministic artifact digest and closure verification passed",
 				"Protected values, iCloud backup, services, external routing, and clients remain inactive"
 			]
 		},
