@@ -15,8 +15,8 @@
 		"note": "Not a live health check"
 	},
 	"lastUpdated": {
-		"iso": "2026-08-05",
-		"display": "August 5, 2026"
+		"iso": "2026-08-06",
+		"display": "August 6, 2026"
 	},
 	"milestones": {
 		"completed": [
@@ -29,8 +29,10 @@
 			"Verified model download and manifest publication accepted",
 			"Verified model operator and scheduled backup execution accepted"
 		],
-		"current": ["Install accepted local components and complete owner setup"],
-		"next": ["Configure external routing and complete client acceptance"],
+		"current": [
+			"Complete owner setup, activate the local origin, and prove backup and restore"
+		],
+		"next": ["Authorize external routing and complete client acceptance"],
 		"gated": ["External account access and launch approval"]
 	},
 	"verification": [
@@ -76,6 +78,20 @@
 		}
 	],
 	"updates": [
+		{
+			"date": {
+				"iso": "2026-08-06",
+				"display": "August 6, 2026"
+			},
+			"title": "Local deployment readiness checkpoint",
+			"summary": "The offline embedding model cache is installed and verified. Launch remains gated by owner setup, local-service, backup and restore, external-routing, and client evidence.",
+			"evidence": [
+				"Offline embedding model cache installed and verified",
+				"All ten required protected values are absent",
+				"No local service, external edge, DNS record, or client connection exists",
+				"Live backup and restore evidence remains unfinished"
+			]
+		},
 		{
 			"date": {
 				"iso": "2026-08-05",
