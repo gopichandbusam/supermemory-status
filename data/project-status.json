@@ -6,7 +6,7 @@
 	},
 	"launchProgress": {
 		"percent": 83,
-		"stage": "Activation operators verified",
+		"stage": "Pre-activation security verified",
 		"label": "Launch remains gated"
 	},
 	"deployment": {
@@ -33,13 +33,13 @@
 			"Enable owner prerequisites, activate services, and prove live backup and restore"
 		],
 		"next": ["Authorize external routing and complete client acceptance"],
-		"gated": ["External account access and launch approval"]
+		"gated": ["Owner setup, external account access, and launch approval"]
 	},
 	"verification": [
 		{
-			"label": "Earlier MCP core coverage",
-			"passed": 811,
-			"total": 811
+			"label": "Private MCP application coverage",
+			"passed": 838,
+			"total": 838
 		},
 		{
 			"label": "Status site coverage",
@@ -78,6 +78,23 @@
 		}
 	],
 	"updates": [
+		{
+			"date": {
+				"iso": "2026-08-06",
+				"display": "August 6, 2026"
+			},
+			"title": "Pre-activation security checkpoint accepted",
+			"summary": "The tracked-file safety scan passed and the durable OAuth connection-authority foundation passed review. Launch remains gated by owner setup and live acceptance.",
+			"evidence": [
+				"Tracked-file scan checked all 1,581 paths; text files were content-scanned and oversized binary files received a bounded binary probe",
+				"Scanner edge cases passed 19 of 19 checks",
+				"Synthetic documentation and test fixtures were sanitized without exposing values",
+				"OAuth connection lifecycle and persistence passed 53 focused checks",
+				"All private TypeScript projects passed",
+				"Connection authority is not yet wired into live OAuth and MCP requests",
+				"Protected values, iCloud backup, services, external routing, and clients remain inactive"
+			]
+		},
 		{
 			"date": {
 				"iso": "2026-08-06",
