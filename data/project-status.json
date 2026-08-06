@@ -5,8 +5,8 @@
 		"tagline": "A durable memory layer for AI applications."
 	},
 	"launchProgress": {
-		"percent": 79,
-		"stage": "MCP deployment gate verified",
+		"percent": 83,
+		"stage": "Activation operators verified",
 		"label": "Launch remains gated"
 	},
 	"deployment": {
@@ -20,7 +20,7 @@
 	},
 	"milestones": {
 		"completed": [
-			"Controlled local connection and MCP deployment gates accepted",
+			"Local connection, activation, and isolated restore operators accepted",
 			"Curated status publisher isolated and verified",
 			"Seven-file public artifact published",
 			"Owner contracts, backup safety, and operations runbook accepted",
@@ -30,7 +30,7 @@
 			"Verified model operator and scheduled backup execution accepted"
 		],
 		"current": [
-			"Complete owner setup, activate the local origin, and prove backup and restore"
+			"Enable owner prerequisites, activate services, and prove live backup and restore"
 		],
 		"next": ["Authorize external routing and complete client acceptance"],
 		"gated": ["External account access and launch approval"]
@@ -58,8 +58,8 @@
 		},
 		{
 			"label": "Mac operations coverage",
-			"passed": 434,
-			"total": 434
+			"passed": 521,
+			"total": 521
 		},
 		{
 			"label": "Supervisor lifecycle coverage",
@@ -83,13 +83,14 @@
 				"iso": "2026-08-06",
 				"display": "August 6, 2026"
 			},
-			"title": "Local deployment readiness checkpoint",
-			"summary": "The offline embedding model cache is installed and verified. Launch remains gated by owner setup, local-service, backup and restore, external-routing, and client evidence.",
+			"title": "Activation operators verified",
+			"summary": "The local OAuth-to-MCP memory lifecycle and reviewed activation operators pass. Launch remains gated by owner setup, iCloud backup readiness, live services, routing, and client acceptance.",
 			"evidence": [
-				"Offline embedding model cache installed and verified",
-				"All ten required protected values are absent",
-				"No local service, external edge, DNS record, or client connection exists",
-				"Live backup and restore evidence remains unfinished"
+				"Production-pinned local OAuth and MCP memory lifecycle passed",
+				"Reviewed activation, edge, and isolated restore operators accepted",
+				"Canonical operations gate passed 521 of 521 checks",
+				"All ten required protected values remain absent",
+				"iCloud backup location, local services, external edge, DNS, and clients remain inactive"
 			]
 		},
 		{
