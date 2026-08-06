@@ -5,9 +5,9 @@
 		"tagline": "A durable memory layer for AI applications."
 	},
 	"launchProgress": {
-		"percent": 72,
-		"stage": "Mac service integration",
-		"label": "72% complete"
+		"percent": 75,
+		"stage": "Protected local data path",
+		"label": "75% complete"
 	},
 	"deployment": {
 		"state": "not-launched",
@@ -24,17 +24,13 @@
 			"Curated status publisher verified",
 			"Seven-file public artifact published",
 			"Owner contracts, backup safety, and operations runbook accepted",
-			"Protected owner session UI and browser artifact verified",
-			"Authenticated local admin reads composed",
-			"Verified production model downloader accepted",
-			"Durable backup fence propagation verified"
+			"Protected owner session and browser artifact verified",
+			"Authenticated local reads and responsive workspace accepted",
+			"Verified model download and manifest publication accepted",
+			"Durable backup fence and snapshot evidence verified"
 		],
-		"current": [
-			"Connect protected browser reads, publish the model manifest, and build the fixed backup driver"
-		],
-		"next": [
-			"Connect curated data to the protected browser UI, then complete domain setup"
-		],
+		"current": ["Complete the model installer command and backup execution"],
+		"next": ["Verify the local service launch, then complete domain setup"],
 		"gated": ["Account access and launch approval"]
 	},
 	"verification": [
@@ -54,9 +50,9 @@
 			"total": 129
 		},
 		{
-			"label": "Graph interface state coverage",
-			"passed": 16,
-			"total": 16
+			"label": "Browser workspace coverage",
+			"passed": 37,
+			"total": 37
 		},
 		{
 			"label": "Mac operations coverage",
@@ -74,9 +70,9 @@
 			"total": 26
 		},
 		{
-			"label": "Backup safety coverage",
-			"passed": 102,
-			"total": 102
+			"label": "Backup snapshot evidence coverage",
+			"passed": 67,
+			"total": 67
 		}
 	],
 	"updates": [
@@ -85,17 +81,17 @@
 				"iso": "2026-08-05",
 				"display": "August 5, 2026"
 			},
-			"title": "Production composition and downloader checkpoint",
-			"summary": "Authenticated local reads now share the production listener, the verified model downloader is callable, and durable backup fences reach both driver paths. Launch remains gated.",
+			"title": "Browser workspace and durable publication checkpoint",
+			"summary": "The responsive owner workspace now renders memory and graph views, the model manifest publishes atomically, and backup snapshots carry durable evidence. Launch remains gated.",
 			"evidence": [
-				"Admin memory and preview interface contracts pass 129 checks with bounded collection and response limits",
-				"Two authenticated local admin reads pass 9 route checks and 5 production composition checks",
-				"The local production listener keeps the owner and application authorities isolated",
-				"Verified model download passes 6 focused checks; related model preparation checks pass 199",
-				"Backup executor and store pass 39 checks with durable fence values carried into both driver paths",
-				"Protected browser reads, model manifest and command wiring, restic execution, restore, and service launch remain incomplete",
-				"Prior status run 31061060373 published artifact 50c7984c; Pages built and custom-domain DNS remains absent",
-				"No production journal, model, network, runtime, service, backup, Keychain, Cloudflare, DNS, or client state changed"
+				"Browser data reads pass 8 checks and responsive workspace routes pass 9",
+				"Owner-to-origin reads pass 8 behavioral checks and 1 type check",
+				"Memory and relationship views now connect through 6 authenticated handler checks and 9 edge route checks",
+				"Verified model manifest publication passes 7 focused checks after canonical encoding",
+				"Fence-bound snapshot evidence passes within a 67-check safety set; operation source preparation adds 11 focused checks",
+				"Model command wiring, backup execution, restore, service launch, and domain setup remain incomplete",
+				"Prior status run 31061367787 published artifact 290063df; Pages built and custom-domain DNS remains absent",
+				"No production model, service, backup, Keychain, Cloudflare, DNS, or client state changed"
 			]
 		},
 		{
