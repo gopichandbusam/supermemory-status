@@ -25,12 +25,12 @@
 			"Seven-file public artifact published",
 			"Owner contracts, backup safety, and operations runbook accepted",
 			"Protected owner session UI and browser artifact verified",
-			"Graph, model-file, and read-schema runtime protections accepted",
+			"Bounded admin graph contract and model-file sink accepted",
 			"Health monitor launch policy verified",
-			"Durable scheduled admission and supervisor lifecycle verified"
+			"Durable scheduled admission and pending-outcome handling verified"
 		],
 		"current": [
-			"Execute durably queued backups, connect browser data, and integrate the model installer"
+			"Finish backup fencing, connect browser data, and bridge the verified model stream"
 		],
 		"next": [
 			"Connect curated data to the protected browser UI, then complete domain setup"
@@ -49,9 +49,9 @@
 			"total": 317
 		},
 		{
-			"label": "Admin boundary coverage",
-			"passed": 79,
-			"total": 79
+			"label": "Admin contract coverage",
+			"passed": 129,
+			"total": 129
 		},
 		{
 			"label": "Graph interface state coverage",
@@ -85,17 +85,17 @@
 				"iso": "2026-08-05",
 				"display": "August 5, 2026"
 			},
-			"title": "Read-schema runtime compatibility checkpoint",
-			"summary": "A 17-test false green exposed lazy read-schema initialization under Bun. The root cause is fixed, focused checks pass, and no deployment occurred.",
+			"title": "Bounded data and recovery checkpoint",
+			"summary": "Admin previews, model-file publication, and uncertain backup outcomes now have explicit bounded contracts. Remaining launch wiring stays gated and no deployment occurred.",
 			"evidence": [
-				"Read schema passed 33 checks and authenticated app passed 69 after correcting a 17-test false green",
-				"Browser client passed 9 checks at 08a975d8; UI controller passed 20 and artifact passed 27 at fe700f1d; admin types and build pass",
-				"Supervisor ready dispatch is accepted at 53e3a515",
-				"SQLite scheduled admission is durable at ae27f3a3",
-				"Production ready-adapter wiring is accepted at 542f6776",
-				"Local origin passed 1363 checks across all 41 independently reported unit files",
-				"Status publication run 31056355484 succeeded; Pages built, DNS absent, and no deployment occurred",
-				"Executor, restore, and installer incomplete; no production journal state was touched; model, network, runtime, service, backup, and Keychain unchanged"
+				"Admin memory and preview-only graph contracts pass 129 checks with 200-node, 20300-relation, and 2 MiB caps",
+				"A distinct admin-origin authority is required locally and declared at the Worker boundary; no data route is mounted",
+				"Descriptor-relative model sink passes 17 checks and Darwin adapter passes 10 at 3ef5dc31",
+				"Installer path, preserved verifier, and stage identity pass 14, 64, and 82 focused checks",
+				"Backup executor and store pass 29 checks; uncertain outcomes stay running and block the next queued backup",
+				"Database fencing, restic execution, restore, admin data routes, and production model wiring remain incomplete",
+				"Prior status run 31057659388 published artifact bd77f5d5; Pages built and custom-domain DNS remains absent",
+				"No production journal, model, network, runtime, service, backup, Keychain, Cloudflare, DNS, or client state changed"
 			]
 		},
 		{
