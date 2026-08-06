@@ -29,7 +29,7 @@
 			"Verified model download and manifest publication accepted",
 			"Verified model operator and scheduled backup execution accepted"
 		],
-		"current": ["Promote accepted local components and complete owner setup"],
+		"current": ["Install accepted local components and complete owner setup"],
 		"next": ["Configure external routing and complete client acceptance"],
 		"gated": ["External account access and launch approval"]
 	},
