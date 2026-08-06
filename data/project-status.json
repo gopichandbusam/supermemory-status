@@ -91,7 +91,7 @@
 				"Client metadata failures use the redacted application error boundary",
 				"No Cloudflare deployment occurred",
 				"External routing and client acceptance remain incomplete",
-				"No public launch or client connection occurred"
+				"Fresh-install asset preparation now has a regression check"
 			]
 		},
 		{
