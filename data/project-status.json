@@ -58,8 +58,8 @@
 		},
 		{
 			"label": "Mac operations coverage",
-			"passed": 521,
-			"total": 521
+			"passed": 538,
+			"total": 538
 		},
 		{
 			"label": "Supervisor lifecycle coverage",
@@ -83,12 +83,29 @@
 				"iso": "2026-08-06",
 				"display": "August 6, 2026"
 			},
+			"title": "Private visualization checkpoint accepted",
+			"summary": "A self-contained MCP visualization, bounded background indexing, and deterministic import flow passed local review. Launch remains gated.",
+			"evidence": [
+				"The MCP visualization resource is content addressed and self contained",
+				"The complete private MCP gate passed 824 of 824 checks across 59 files",
+				"The complete local origin gate passed 1537 of 1537 checks across 54 files",
+				"Bounded mutual graph indexing and exact prefix database upgrades passed focused checks",
+				"Relationship evidence preserves source basis and similarity hints",
+				"Deterministic import replay and local persistence passed focused checks",
+				"Launch state and client availability are unchanged"
+			]
+		},
+		{
+			"date": {
+				"iso": "2026-08-06",
+				"display": "August 6, 2026"
+			},
 			"title": "Activation operators verified",
 			"summary": "The local OAuth-to-MCP memory lifecycle and reviewed activation operators pass. Launch remains gated by owner setup, iCloud backup readiness, live services, routing, and client acceptance.",
 			"evidence": [
 				"Production-pinned local OAuth and MCP memory lifecycle passed",
 				"Reviewed activation, edge, and isolated restore operators accepted",
-				"Canonical operations gate passed 521 of 521 checks",
+				"Canonical operations gate passed 538 of 538 checks",
 				"All ten required protected values remain absent",
 				"iCloud backup location, local services, external edge, DNS, and clients remain inactive"
 			]
