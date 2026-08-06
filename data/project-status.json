@@ -25,12 +25,12 @@
 			"Seven-file public artifact published",
 			"Owner contracts, backup safety, and operations runbook accepted",
 			"Protected owner session UI and browser artifact verified",
-			"Bounded admin graph contract and model-file sink accepted",
-			"Health monitor launch policy verified",
-			"Durable scheduled admission and pending-outcome handling verified"
+			"Bounded local admin read boundary verified",
+			"Verified multi-file model preparation boundary accepted",
+			"Database singleton backup execution verified"
 		],
 		"current": [
-			"Finish backup fencing, connect browser data, and bridge the verified model stream"
+			"Connect protected browser reads, finish backup execution fencing, and complete the verified model installer"
 		],
 		"next": [
 			"Connect curated data to the protected browser UI, then complete domain setup"
@@ -85,16 +85,16 @@
 				"iso": "2026-08-05",
 				"display": "August 5, 2026"
 			},
-			"title": "Bounded data and recovery checkpoint",
-			"summary": "Admin previews, model-file publication, and uncertain backup outcomes now have explicit bounded contracts. Remaining launch wiring stays gated and no deployment occurred.",
+			"title": "Local read, model preparation, and backup safety checkpoint",
+			"summary": "Authenticated local reads, verified multi-file preparation, and database singleton backup execution now have bounded test evidence. Production connection and launch remain gated.",
 			"evidence": [
-				"Admin memory and preview-only graph contracts pass 129 checks with 200-node, 20300-relation, and 2 MiB caps",
-				"A distinct admin-origin authority is required locally and declared at the Worker boundary; no data route is mounted",
-				"Descriptor-relative model sink passes 17 checks and Darwin adapter passes 10 at 3ef5dc31",
+				"Admin memory and preview interface contracts pass 129 checks with bounded collection and response limits",
+				"Two authenticated local admin read routes pass 9 focused checks but are not yet mounted in the production listener",
+				"Model stream, multi-file preparation, no-replace sink, and Darwin adapter pass 8, 4, 17, and 10 focused checks",
 				"Installer path, preserved verifier, and stage identity pass 14, 64, and 82 focused checks",
-				"Backup executor and store pass 29 checks; uncertain outcomes stay running and block the next queued backup",
-				"Database fencing, restic execution, restore, admin data routes, and production model wiring remain incomplete",
-				"Prior status run 31057659388 published artifact bd77f5d5; Pages built and custom-domain DNS remains absent",
+				"Backup executor and store pass 38 checks with one database-enforced running schedule and process-race coverage",
+				"Restic execution, restore, protected browser reads, production model download, and service launch remain incomplete",
+				"Prior status run 31059803377 published artifact 7b514b37; Pages built and custom-domain DNS remains absent",
 				"No production journal, model, network, runtime, service, backup, Keychain, Cloudflare, DNS, or client state changed"
 			]
 		},
