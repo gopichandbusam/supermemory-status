@@ -5,9 +5,9 @@
 		"tagline": "A durable memory layer for AI applications."
 	},
 	"launchProgress": {
-		"percent": 76,
+		"percent": 79,
 		"stage": "Verified build checkpoint",
-		"label": "76% complete"
+		"label": "79% complete"
 	},
 	"deployment": {
 		"state": "not-launched",
@@ -21,23 +21,23 @@
 	"milestones": {
 		"completed": [
 			"Local connection lifecycle accepted",
-			"Curated status publisher verified",
+			"Curated status publisher isolated and verified",
 			"Seven-file public artifact published",
 			"Owner contracts, backup safety, and operations runbook accepted",
 			"Protected owner session and browser artifact verified",
 			"Authenticated local reads and responsive workspace accepted",
 			"Verified model download and manifest publication accepted",
-			"Durable backup fence, model tree, and SQLite copies verified"
+			"Verified model operator and scheduled backup execution accepted"
 		],
-		"current": ["Complete the model operator command and backup driver"],
+		"current": ["Complete restore and release dependency gates"],
 		"next": ["Verify the local service launch, then complete domain setup"],
 		"gated": ["Account access and launch approval"]
 	},
 	"verification": [
 		{
 			"label": "MCP core coverage",
-			"passed": 796,
-			"total": 796
+			"passed": 811,
+			"total": 811
 		},
 		{
 			"label": "Status site coverage",
@@ -56,8 +56,8 @@
 		},
 		{
 			"label": "Mac operations coverage",
-			"passed": 344,
-			"total": 344
+			"passed": 434,
+			"total": 434
 		},
 		{
 			"label": "Supervisor lifecycle coverage",
@@ -70,9 +70,9 @@
 			"total": 26
 		},
 		{
-			"label": "Backup snapshot evidence coverage",
-			"passed": 67,
-			"total": 67
+			"label": "Backup execution coverage",
+			"passed": 136,
+			"total": 136
 		}
 	],
 	"updates": [
@@ -82,15 +82,15 @@
 				"display": "August 5, 2026"
 			},
 			"title": "Verified build checkpoint",
-			"summary": "The responsive owner workspace is connected locally, the verified model tree is prepared safely, and both SQLite backup copies are now produced consistently. Launch remains gated.",
+			"summary": "The responsive owner workspace is connected locally, scheduled backup execution is connected to its durable queue, and status publishing has a dedicated frozen toolchain. Launch remains gated.",
 			"evidence": [
-				"Browser data reads pass 8 checks and responsive workspace routes pass 9",
-				"Owner-to-origin reads pass 8 behavioral checks and 1 type check",
 				"Memory and relationship views now connect through 6 authenticated handler checks and 9 edge route checks",
-				"Verified model tree preparation passes 7 focused checks and its descriptor adapter passes 12",
-				"Fence-bound source preparation passes 11 checks; both SQLite copies add 5 focused checks inside a 64-check backup set",
-				"Model operator wiring, backup driver execution, restore, service launch, and domain setup remain incomplete",
-				"Prior status run 31062642820 published artifact 8d3a649a; Pages built and custom-domain DNS remains absent",
+				"Browser data reads pass 8 checks and responsive workspace routes pass 9",
+				"Verified model operator and launcher pass 13 focused checks",
+				"Scheduled backup driver and shutdown-safe worker pass 136 regression checks",
+				"Complete Mac operations coverage passes 434 checks across 33 files",
+				"Restore, observed model installation, service launch, and domain setup remain incomplete",
+				"Status publishing uses a dedicated frozen validation package; prior artifact 763bb0f4 remains available",
 				"No production model, service, backup, Keychain, Cloudflare, DNS, or client state changed"
 			]
 		},
