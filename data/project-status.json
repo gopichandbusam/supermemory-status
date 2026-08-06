@@ -87,7 +87,7 @@
 			"summary": "A self-contained MCP visualization, bounded background indexing, and deterministic import flow passed local review. Launch remains gated.",
 			"evidence": [
 				"The MCP visualization resource is content addressed and self contained",
-				"The clean checkout private MCP dependency and type gates passed in isolation",
+				"The clean checkout private MCP dependency, type, and app-local runner gates passed in isolation",
 				"The complete local origin gate passed 1537 of 1537 checks across 54 files",
 				"Bounded mutual graph indexing and exact prefix database upgrades passed focused checks",
 				"Relationship evidence preserves source basis and similarity hints",
