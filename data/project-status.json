@@ -6,7 +6,7 @@
 	},
 	"launchProgress": {
 		"percent": 83,
-		"stage": "Owner connection settings verified",
+		"stage": "Acceptance evidence boundary verified",
 		"label": "Launch remains gated"
 	},
 	"deployment": {
@@ -20,7 +20,7 @@
 	},
 	"milestones": {
 		"completed": [
-			"Owner-safe OAuth connection settings and isolated restore accepted",
+			"Owner-safe connections and fail-closed acceptance evidence accepted",
 			"Curated status publisher isolated and verified",
 			"Seven-file public artifact published",
 			"Owner contracts, backup safety, and operations runbook accepted",
@@ -58,8 +58,8 @@
 		},
 		{
 			"label": "Mac operations coverage",
-			"passed": 538,
-			"total": 538
+			"passed": 581,
+			"total": 581
 		},
 		{
 			"label": "Supervisor lifecycle coverage",
@@ -78,6 +78,24 @@
 		}
 	],
 	"updates": [
+		{
+			"date": {
+				"iso": "2026-08-06",
+				"display": "August 6, 2026"
+			},
+			"title": "Fail-closed acceptance evidence accepted",
+			"summary": "The final launch reporter now stays closed until every local and owner-observed gate is proven. Launch and client availability are unchanged.",
+			"evidence": [
+				"Acceptance coverage passed 57 of 57 checks",
+				"Mac operations coverage passed 581 of 581 checks across 45 files",
+				"Full private coverage passed 875 of 875 checks across 61 files",
+				"All private TypeScript projects passed",
+				"Status site coverage passed 317 of 317 checks",
+				"Curated safety scan covered 1583 files",
+				"Deployment closure verification passed",
+				"Public deployment and clients remain inactive"
+			]
+		},
 		{
 			"date": {
 				"iso": "2026-08-06",
