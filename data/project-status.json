@@ -15,8 +15,8 @@
 		"note": "Not a live health check"
 	},
 	"lastUpdated": {
-		"iso": "2026-08-06",
-		"display": "August 6, 2026"
+		"iso": "2026-08-07",
+		"display": "August 7, 2026"
 	},
 	"milestones": {
 		"completed": [
@@ -30,8 +30,10 @@
 			"Verified model operator and scheduled backup execution accepted"
 		],
 		"current": [
-			"Finish owner maintenance and manual backup controls",
-			"Enable owner prerequisites, activate services, and prove live backup and restore"
+			"Local manual backup admission is implemented and locally verified but not executed",
+			"Browser backup control remains pending",
+			"Backup, iCloud, and restore evidence remains absent",
+			"Deployment and web clients remain not launched"
 		],
 		"next": ["Authorize external routing and complete client acceptance"],
 		"gated": ["Owner setup, external account access, and launch approval"]
@@ -59,8 +61,8 @@
 		},
 		{
 			"label": "Mac operations coverage",
-			"passed": 581,
-			"total": 581
+			"passed": 655,
+			"total": 655
 		},
 		{
 			"label": "Supervisor lifecycle coverage",
@@ -74,11 +76,29 @@
 		},
 		{
 			"label": "Backup execution coverage",
-			"passed": 136,
-			"total": 136
+			"passed": 107,
+			"total": 107
 		}
 	],
 	"updates": [
+		{
+			"date": {
+				"iso": "2026-08-07",
+				"display": "August 7, 2026"
+			},
+			"title": "Strict local manual backup admission verified",
+			"summary": "The fixed local request can now durably admit manual backup work through the existing supervisor path. It has not been executed, and launch remains gated.",
+			"evidence": [
+				"Mac operations coverage passed 655 of 655 checks across 46 files with 3841 assertions",
+				"Focused backup execution coverage passed 107 of 107 checks across five files",
+				"A successful local response is durable acceptance only, not backup completion or status",
+				"The controlled synthetic OAuth and MCP lifecycle passed through a local Worker and fake origin",
+				"Synthetic lifecycle evidence is not real origin, edge, or client acceptance",
+				"Browser backup control and live backup, iCloud, restore, service, routing, DNS, TLS, and web client evidence remain pending",
+				"Production acceptance remains not deployed with zero of fifteen live gates complete",
+				"Tracked safety scan covered 1619 files; launch progress remains 83 percent and deployment remains not launched"
+			]
+		},
 		{
 			"date": {
 				"iso": "2026-08-06",
@@ -94,7 +114,7 @@
 				"Deployment closure passed 137 of 137 checks and the non deploying verifier accepted the matching artifacts",
 				"Status coverage passed 317 of 317 checks and produced exactly seven public files",
 				"Tracked safety scan covered 1616 files; bounded release scan covered 298 files; Han, formatting, whitespace, and history checks passed",
-				"Deployment and web clients remain inactive; all protected values remain absent; manual backup control is not implemented"
+				"The August 7 checkpoint supersedes this manual control status; deployment and web clients remain inactive"
 			]
 		},
 		{
