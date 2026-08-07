@@ -6,7 +6,7 @@
 	},
 	"launchProgress": {
 		"percent": 83,
-		"stage": "Durable backup status verified",
+		"stage": "Restore control plane verified",
 		"label": "Launch remains gated"
 	},
 	"deployment": {
@@ -30,9 +30,9 @@
 			"Verified model operator and scheduled backup execution accepted"
 		],
 		"current": [
-			"Local manual backup admission is implemented and locally verified but not executed",
-			"Browser backup control remains pending",
-			"Live backup, iCloud, and restore evidence remains absent",
+			"Restore rehearsal admission, execution journal, redacted status, and one operation pump are locally verified",
+			"No live backup or restore rehearsal has run",
+			"Maintenance ownership and bounded origin orchestration remain in progress",
 			"Deployment and web clients remain not launched"
 		],
 		"next": ["Authorize external routing and complete client acceptance"],
@@ -81,6 +81,24 @@
 		}
 	],
 	"updates": [
+		{
+			"date": {
+				"iso": "2026-08-07",
+				"display": "August 7, 2026"
+			},
+			"title": "Restore control plane verified",
+			"summary": "The private supervisor can now admit, journal, reconcile, and schedule one isolated restore rehearsal without exposing backup identity. This is local code evidence; launch remains gated.",
+			"evidence": [
+				"Restore admission accepts no caller supplied snapshot, path, command, or option",
+				"Interrupted running work settles unknown once and is never replayed",
+				"Authenticated status exposes only operation, journal state, and update time",
+				"Backup and restore status are read from one verified database image",
+				"One non overlapping supervisor timer prefers queued restore work before backup work",
+				"The timer and production composition passed 23 of 23 focused checks with 88 assertions",
+				"No live backup, restore, service, routing, DNS, Claude, or ChatGPT gate was run",
+				"Production acceptance remains not deployed at zero of fifteen; launch progress remains 83 percent and deployment remains not launched"
+			]
+		},
 		{
 			"date": {
 				"iso": "2026-08-07",
@@ -275,15 +293,6 @@
 				"Launch, external routing, and client setup remain incomplete",
 				"No public launch or client connection occurred"
 			]
-		},
-		{
-			"date": {
-				"iso": "2026-08-04",
-				"display": "August 4, 2026"
-			},
-			"title": "Website status milestone",
-			"summary": "Created the public status contract and first curated update.",
-			"evidence": ["SQLite foundations accepted", "Public contract reviewed"]
 		}
 	]
 }
