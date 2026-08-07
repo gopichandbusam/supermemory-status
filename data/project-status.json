@@ -6,7 +6,7 @@
 	},
 	"launchProgress": {
 		"percent": 83,
-		"stage": "SQLite MCP lifecycle and operation leases verified",
+		"stage": "SQLite MCP lifecycle and bounded runner verified",
 		"label": "Launch remains gated"
 	},
 	"deployment": {
@@ -32,8 +32,9 @@
 		"current": [
 			"Focused operation integration passed 194 of 194 checks with 1348 assertions",
 			"SQLite origin contract passed 8 of 8 checks",
-			"Private MCP runner passed 6 of 6 checks",
+			"Private MCP runner passed 9 of 9 checks",
 			"Default loopback OAuth and MCP lifecycle passed",
+			"Worker startup and output cleanup now have fixed bounds",
 			"Independent review found no critical or important findings",
 			"No production service, backup, restore, routing, DNS, Claude, or ChatGPT gate was run"
 		],
@@ -73,8 +74,8 @@
 		},
 		{
 			"label": "Private MCP runner",
-			"passed": 6,
-			"total": 6
+			"passed": 9,
+			"total": 9
 		},
 		{
 			"label": "Default loopback lifecycle",
@@ -88,13 +89,14 @@
 				"iso": "2026-08-07",
 				"display": "August 7, 2026"
 			},
-			"title": "SQLite MCP lifecycle and operation leases verified",
-			"summary": "The local OAuth and MCP tool lifecycle now runs through SQLite and FTS search, while backup and restore retain durable maintenance ownership. This is local code evidence; launch remains gated.",
+			"title": "SQLite MCP lifecycle and bounded runner verified",
+			"summary": "The local OAuth and MCP tool lifecycle now runs through SQLite and FTS search, while startup and output cleanup use fixed bounds and backup and restore retain durable maintenance ownership. This is local code evidence; launch remains gated.",
 			"evidence": [
 				"Focused operation integration passed 194 of 194 checks with 1348 assertions",
 				"SQLite origin contract passed 8 of 8 checks",
-				"Private MCP runner passed 6 of 6 checks",
-				"The default loopback OAuth and MCP lifecycle passed and cleaned its temporary state",
+				"Private MCP runner passed 9 of 9 checks",
+				"The default loopback OAuth and MCP lifecycle passed under high load in about 88 seconds and cleaned its temporary state",
+				"Worker readiness is bounded at two minutes and each retained output reader cleanup is bounded at two seconds after the direct Worker is reaped",
 				"Two fail closed recovery findings were fixed and independently re-reviewed",
 				"No production service, backup, restore, routing, DNS, Claude, or ChatGPT gate was run",
 				"Production acceptance remains not deployed at zero of fifteen; launch progress remains 83 percent and deployment remains not launched"
