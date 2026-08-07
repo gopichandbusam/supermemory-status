@@ -6,7 +6,7 @@
 	},
 	"launchProgress": {
 		"percent": 83,
-		"stage": "Maintenance recovery and command bounds verified",
+		"stage": "SQLite MCP lifecycle and operation leases verified",
 		"label": "Launch remains gated"
 	},
 	"deployment": {
@@ -30,12 +30,12 @@
 			"Verified model operator and scheduled backup execution accepted"
 		],
 		"current": [
-			"Backup command timeout coverage passed 71 of 71 checks with 349 assertions",
-			"Supervisor store coverage passed 100 of 100 checks with 540 assertions",
-			"Maintenance lifecycle coverage passed 17 of 17 checks with 107 assertions",
+			"Focused operation integration passed 194 of 194 checks with 1348 assertions",
+			"SQLite origin contract passed 8 of 8 checks",
+			"Private MCP runner passed 6 of 6 checks",
+			"Default loopback OAuth and MCP lifecycle passed",
 			"Independent review found no critical or important findings",
-			"No live backup or restore rehearsal has run",
-			"Origin orchestration, deployment, and web clients remain gated"
+			"No production service, backup, restore, routing, DNS, Claude, or ChatGPT gate was run"
 		],
 		"next": ["Authorize external routing and complete client acceptance"],
 		"gated": ["Owner setup, external account access, and launch approval"]
@@ -62,27 +62,44 @@
 			"total": 166
 		},
 		{
-			"label": "Mac operations coverage",
-			"passed": 699,
-			"total": 699
+			"label": "Focused operation integration",
+			"passed": 194,
+			"total": 194
 		},
 		{
-			"label": "Backup command timeout coverage",
-			"passed": 71,
-			"total": 71
+			"label": "SQLite origin contract",
+			"passed": 8,
+			"total": 8
 		},
 		{
-			"label": "Supervisor store coverage",
-			"passed": 100,
-			"total": 100
+			"label": "Private MCP runner",
+			"passed": 6,
+			"total": 6
 		},
 		{
-			"label": "Maintenance lifecycle coverage",
-			"passed": 17,
-			"total": 17
+			"label": "Default loopback lifecycle",
+			"passed": 1,
+			"total": 1
 		}
 	],
 	"updates": [
+		{
+			"date": {
+				"iso": "2026-08-07",
+				"display": "August 7, 2026"
+			},
+			"title": "SQLite MCP lifecycle and operation leases verified",
+			"summary": "The local OAuth and MCP tool lifecycle now runs through SQLite and FTS search, while backup and restore retain durable maintenance ownership. This is local code evidence; launch remains gated.",
+			"evidence": [
+				"Focused operation integration passed 194 of 194 checks with 1348 assertions",
+				"SQLite origin contract passed 8 of 8 checks",
+				"Private MCP runner passed 6 of 6 checks",
+				"The default loopback OAuth and MCP lifecycle passed and cleaned its temporary state",
+				"Two fail closed recovery findings were fixed and independently re-reviewed",
+				"No production service, backup, restore, routing, DNS, Claude, or ChatGPT gate was run",
+				"Production acceptance remains not deployed at zero of fifteen; launch progress remains 83 percent and deployment remains not launched"
+			]
+		},
 		{
 			"date": {
 				"iso": "2026-08-07",
@@ -274,24 +291,6 @@
 				"The newer release evidence update above supersedes this backend only checkpoint",
 				"Launch remains 83 percent and deployment remains not launched",
 				"Protected values, services, routing, clients, and remote acceptance remain inactive"
-			]
-		},
-		{
-			"date": {
-				"iso": "2026-08-06",
-				"display": "August 6, 2026"
-			},
-			"title": "Bounded personal-memory browsing accepted",
-			"summary": "The signed-in workspace now loads additional personal previews in order, preserves the last successful view during refresh failures, and stops at a fixed browser window. Launch remains gated.",
-			"evidence": [
-				"Focused browser coverage passed 88 of 88 checks",
-				"The self-contained admin artifact passed 27 of 27 checks",
-				"All private TypeScript projects and local type checks passed",
-				"The production admin build and full private suite passed",
-				"Two isolated dry builds agreed on every reviewed artifact",
-				"Deployment closure verification passed 55 of 55 checks",
-				"Search, filters, container selection, mutations, transfer, operations, deployment, and clients remain unfinished",
-				"No external state changed"
 			]
 		}
 	]
