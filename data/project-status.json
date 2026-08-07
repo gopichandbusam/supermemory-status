@@ -20,7 +20,7 @@
 	},
 	"milestones": {
 		"completed": [
-			"Browser-admin creation backend, owner-safe connections, and fail-closed acceptance evidence accepted",
+			"Visible exact-memory creation flow and protected backend implemented locally",
 			"Curated status publisher isolated and verified",
 			"Seven-file public artifact published",
 			"Owner contracts, backup safety, and operations runbook accepted",
@@ -30,6 +30,7 @@
 			"Verified model operator and scheduled backup execution accepted"
 		],
 		"current": [
+			"Finish owner maintenance and manual backup controls",
 			"Enable owner prerequisites, activate services, and prove live backup and restore"
 		],
 		"next": ["Authorize external routing and complete client acceptance"],
@@ -38,8 +39,8 @@
 	"verification": [
 		{
 			"label": "Private MCP application coverage",
-			"passed": 875,
-			"total": 875
+			"passed": 1035,
+			"total": 1035
 		},
 		{
 			"label": "Status site coverage",
@@ -53,8 +54,8 @@
 		},
 		{
 			"label": "Browser workspace coverage",
-			"passed": 64,
-			"total": 64
+			"passed": 166,
+			"total": 166
 		},
 		{
 			"label": "Mac operations coverage",
@@ -78,6 +79,24 @@
 		}
 	],
 	"updates": [
+		{
+			"date": {
+				"iso": "2026-08-06",
+				"display": "August 6, 2026"
+			},
+			"title": "Reload-safe exact-memory release evidence verified",
+			"summary": "The signed-in workspace has an exact-memory creation flow with one idempotent submission, operation-only reload recovery, bounded checking, and safe refresh. Its production artifacts and complete local verification pass; launch remains gated.",
+			"evidence": [
+				"Combined browser coverage passed 166 of 166 checks across seven files",
+				"Full MCP coverage passed 1035 of 1035 checks across 64 files",
+				"Self contained admin artifact coverage passed 27 of 27 checks and all six MCP TypeScript projects passed",
+				"Two no upload builds matched: Worker 1720648 bytes, admin 499683 bytes, and widget 896332 bytes",
+				"Deployment closure passed 137 of 137 checks and the non deploying verifier accepted the matching artifacts",
+				"Status coverage passed 317 of 317 checks and produced exactly seven public files",
+				"Tracked safety scan covered 1616 files; bounded release scan covered 298 files; Han, formatting, whitespace, and history checks passed",
+				"Deployment and web clients remain inactive; all protected values remain absent; manual backup control is not implemented"
+			]
+		},
 		{
 			"date": {
 				"iso": "2026-08-06",
@@ -153,14 +172,14 @@
 				"display": "August 6, 2026"
 			},
 			"title": "Browser-admin creation backend accepted",
-			"summary": "The protected browser-admin path now supports idempotent creation and bounded result polling. The visible form, public launch, and client acceptance remain pending.",
+			"summary": "The protected browser-admin path supports idempotent creation and bounded result polling. The visible workspace flow is now implemented locally; launch and client acceptance remain pending.",
 			"evidence": [
 				"The existing save tool predates this checkpoint",
 				"Handler, composition, and route coverage passed 60, 5, and 7 checks",
 				"Polling reconciles the exact accepted operation before reporting its result",
 				"Two isolated dry builds agreed on every reviewed artifact",
 				"Deployment closure coverage passed 112 of 112 checks",
-				"The visible browser create form is not implemented",
+				"The newer release evidence update above supersedes this backend only checkpoint",
 				"Launch remains 83 percent and deployment remains not launched",
 				"Protected values, services, routing, clients, and remote acceptance remain inactive"
 			]
