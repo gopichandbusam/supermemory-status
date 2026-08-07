@@ -20,7 +20,7 @@
 	},
 	"milestones": {
 		"completed": [
-			"Owner-safe connections and fail-closed acceptance evidence accepted",
+			"Browser-admin creation backend, owner-safe connections, and fail-closed acceptance evidence accepted",
 			"Curated status publisher isolated and verified",
 			"Seven-file public artifact published",
 			"Owner contracts, backup safety, and operations runbook accepted",
@@ -119,16 +119,17 @@
 				"iso": "2026-08-06",
 				"display": "August 6, 2026"
 			},
-			"title": "Private visualization checkpoint accepted",
-			"summary": "A self-contained MCP visualization, bounded background indexing, and deterministic import flow passed local review. Launch remains gated.",
+			"title": "Signed-in memory detail inspection accepted",
+			"summary": "The authenticated admin workspace now reveals one explicitly selected full record after strict input checks while the collection remains preview-only. Launch remains gated.",
 			"evidence": [
-				"The MCP visualization resource is content addressed and self contained",
-				"The clean checkout private MCP dependency, type, and app-local runner gates passed in isolation",
-				"The complete local origin gate passed 1537 of 1537 checks across 54 files",
-				"Bounded mutual graph indexing and exact prefix database upgrades passed focused checks",
-				"Relationship evidence preserves source basis and similarity hints",
-				"Deterministic import replay and local persistence passed focused checks",
-				"Launch state and client availability are unchanged"
+				"Focused signed-in detail coverage passed 318 checks",
+				"Canonical detail tags and strict browser inputs passed",
+				"All private TypeScript projects, local type checks, and the production admin build passed",
+				"Two isolated dry builds agreed on each reviewed artifact",
+				"Creation, editing and forgetting remain unfinished",
+				"Pagination, search, filters, transfer, backup, recovery, maintenance, and activity screens remain unfinished",
+				"Live services, Cloudflare, DNS, deployment, and clients remain inactive",
+				"No external state changed"
 			]
 		},
 		{
@@ -148,20 +149,38 @@
 		},
 		{
 			"date": {
-				"iso": "2026-08-05",
-				"display": "August 5, 2026"
+				"iso": "2026-08-06",
+				"display": "August 6, 2026"
 			},
-			"title": "MCP deployment gate verified",
-			"summary": "The reviewed MCP bundle and complete serial test gate passed locally. External launch and client setup remain gated.",
+			"title": "Browser-admin creation backend accepted",
+			"summary": "The protected browser-admin path now supports idempotent creation and bounded result polling. The visible form, public launch, and client acceptance remain pending.",
 			"evidence": [
-				"The complete serial MCP test command exited successfully",
-				"The exact prebuilt deployment bundle dry run passed",
-				"Client metadata requests reject redirects and mismatched response locations",
-				"Client metadata body reads remain time bounded",
-				"Client metadata failures use the redacted application error boundary",
-				"No Cloudflare deployment occurred",
-				"External routing and client acceptance remain incomplete",
-				"Fresh-install asset preparation now has a regression check"
+				"The existing save tool predates this checkpoint",
+				"Handler, composition, and route coverage passed 60, 5, and 7 checks",
+				"Polling reconciles the exact accepted operation before reporting its result",
+				"Two isolated dry builds agreed on every reviewed artifact",
+				"Deployment closure coverage passed 112 of 112 checks",
+				"The visible browser create form is not implemented",
+				"Launch remains 83 percent and deployment remains not launched",
+				"Protected values, services, routing, clients, and remote acceptance remain inactive"
+			]
+		},
+		{
+			"date": {
+				"iso": "2026-08-06",
+				"display": "August 6, 2026"
+			},
+			"title": "Bounded personal-memory browsing accepted",
+			"summary": "The signed-in workspace now loads additional personal previews in order, preserves the last successful view during refresh failures, and stops at a fixed browser window. Launch remains gated.",
+			"evidence": [
+				"Focused browser coverage passed 88 of 88 checks",
+				"The self-contained admin artifact passed 27 of 27 checks",
+				"All private TypeScript projects and local type checks passed",
+				"The production admin build and full private suite passed",
+				"Two isolated dry builds agreed on every reviewed artifact",
+				"Deployment closure verification passed 55 of 55 checks",
+				"Search, filters, container selection, mutations, transfer, operations, deployment, and clients remain unfinished",
+				"No external state changed"
 			]
 		},
 		{
