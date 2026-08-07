@@ -6,7 +6,7 @@
 	},
 	"launchProgress": {
 		"percent": 83,
-		"stage": "Acceptance evidence boundary verified",
+		"stage": "Durable backup status verified",
 		"label": "Launch remains gated"
 	},
 	"deployment": {
@@ -32,7 +32,7 @@
 		"current": [
 			"Local manual backup admission is implemented and locally verified but not executed",
 			"Browser backup control remains pending",
-			"Backup, iCloud, and restore evidence remains absent",
+			"Live backup, iCloud, and restore evidence remains absent",
 			"Deployment and web clients remain not launched"
 		],
 		"next": ["Authorize external routing and complete client acceptance"],
@@ -61,8 +61,8 @@
 		},
 		{
 			"label": "Mac operations coverage",
-			"passed": 655,
-			"total": 655
+			"passed": 699,
+			"total": 699
 		},
 		{
 			"label": "Supervisor lifecycle coverage",
@@ -81,6 +81,24 @@
 		}
 	],
 	"updates": [
+		{
+			"date": {
+				"iso": "2026-08-07",
+				"display": "August 7, 2026"
+			},
+			"title": "Durable backup status verified",
+			"summary": "Backup completion records and an authenticated redacted status view now pass local verification. This is local code evidence; launch remains gated.",
+			"evidence": [
+				"Mac operations coverage passed 699 of 699 checks across 46 files with 4198 assertions",
+				"The focused redacted status set passed 186 of 186 checks with 1083 assertions",
+				"Every newly successful backup journal result requires matching durable proof",
+				"Migrated successful history remains without evidence when its proof is not recoverable",
+				"Authenticated status returns only the operation, reason, journal state, and update time",
+				"The read only status path uses a bounded verified copy and never changes source content",
+				"No live backup, restore, routing, DNS, Claude, or ChatGPT gate was run",
+				"Production acceptance remains not deployed at zero of fifteen; launch progress remains 83 percent and deployment remains not launched"
+			]
+		},
 		{
 			"date": {
 				"iso": "2026-08-07",
