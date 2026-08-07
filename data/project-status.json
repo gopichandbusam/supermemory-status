@@ -6,7 +6,7 @@
 	},
 	"launchProgress": {
 		"percent": 83,
-		"stage": "Restore control plane verified",
+		"stage": "Maintenance recovery and command bounds verified",
 		"label": "Launch remains gated"
 	},
 	"deployment": {
@@ -30,10 +30,12 @@
 			"Verified model operator and scheduled backup execution accepted"
 		],
 		"current": [
-			"Restore rehearsal admission, execution journal, redacted status, and one operation pump are locally verified",
+			"Backup command timeout coverage passed 71 of 71 checks with 349 assertions",
+			"Supervisor store coverage passed 100 of 100 checks with 540 assertions",
+			"Maintenance lifecycle coverage passed 17 of 17 checks with 107 assertions",
+			"Independent review found no critical or important findings",
 			"No live backup or restore rehearsal has run",
-			"Maintenance ownership and bounded origin orchestration remain in progress",
-			"Deployment and web clients remain not launched"
+			"Origin orchestration, deployment, and web clients remain gated"
 		],
 		"next": ["Authorize external routing and complete client acceptance"],
 		"gated": ["Owner setup, external account access, and launch approval"]
@@ -65,22 +67,38 @@
 			"total": 699
 		},
 		{
-			"label": "Supervisor lifecycle coverage",
-			"passed": 22,
-			"total": 22
+			"label": "Backup command timeout coverage",
+			"passed": 71,
+			"total": 71
 		},
 		{
-			"label": "Service lifecycle coverage",
-			"passed": 26,
-			"total": 26
+			"label": "Supervisor store coverage",
+			"passed": 100,
+			"total": 100
 		},
 		{
-			"label": "Backup execution coverage",
-			"passed": 107,
-			"total": 107
+			"label": "Maintenance lifecycle coverage",
+			"passed": 17,
+			"total": 17
 		}
 	],
 	"updates": [
+		{
+			"date": {
+				"iso": "2026-08-07",
+				"display": "August 7, 2026"
+			},
+			"title": "Maintenance recovery and command bounds verified",
+			"summary": "Durable maintenance ownership, restart recovery, and bounded backup commands now pass local verification. This is local code evidence; launch remains gated.",
+			"evidence": [
+				"Backup command timeout coverage passed 71 of 71 checks with 349 assertions",
+				"Supervisor store coverage passed 100 of 100 checks with 540 assertions",
+				"Maintenance lifecycle coverage passed 17 of 17 checks with 107 assertions",
+				"Independent review found no critical or important findings",
+				"No live backup, restore rehearsal, service activation, external routing, DNS, Claude, or ChatGPT gate was run",
+				"Production acceptance remains not deployed at zero of fifteen; launch progress remains 83 percent and deployment remains not launched"
+			]
+		},
 		{
 			"date": {
 				"iso": "2026-08-07",
@@ -274,24 +292,6 @@
 				"Deployment closure verification passed 55 of 55 checks",
 				"Search, filters, container selection, mutations, transfer, operations, deployment, and clients remain unfinished",
 				"No external state changed"
-			]
-		},
-		{
-			"date": {
-				"iso": "2026-08-05",
-				"display": "August 5, 2026"
-			},
-			"title": "Controlled acceptance checkpoint",
-			"summary": "The protected connection flow completed a controlled owner-device acceptance run. Launch and owner account setup remain gated.",
-			"evidence": [
-				"Authenticated connection flow completed in a controlled owner-device run",
-				"Bounded request handling and readiness checks are accepted",
-				"Preview, apply, and recovery behavior is accepted",
-				"Release dependency and edge checks are accepted",
-				"Pinned operating tools are present on the owner device",
-				"The verified asset installer exists but has not run",
-				"Launch, external routing, and client setup remain incomplete",
-				"No public launch or client connection occurred"
 			]
 		}
 	]
