@@ -86,6 +86,24 @@
 				"iso": "2026-08-07",
 				"display": "August 7, 2026"
 			},
+			"title": "Quiescent origin shutdown verified",
+			"summary": "The local origin now rejects new connections during shutdown, lets admitted requests finish, and closes local resources only after the graceful drain succeeds. This is local code evidence; launch remains gated.",
+			"evidence": [
+				"Real listener drain coverage passed 7 of 7 checks; the shutdown kernel passed 4 of 4 checks",
+				"The production composition rejection probe passed 1 of 1 check with 20 assertions and passed five repeat runs",
+				"New connections were rejected while an admitted request completed; graph, embeddings, and SQLite then closed in order",
+				"A rejected listener stop left graph, embeddings, and SQLite open for test owned cleanup",
+				"Later cleanup failures continued in order; concurrent close calls shared one promise and returned the same frozen redacted error",
+				"Bounded stuck request handling and supervisor driven pause and resume remain pending",
+				"No backup, restore, service activation, external routing, DNS, Claude, or ChatGPT gate was run",
+				"Production acceptance remains not deployed at zero of fifteen; launch progress remains 83 percent and deployment remains not launched"
+			]
+		},
+		{
+			"date": {
+				"iso": "2026-08-07",
+				"display": "August 7, 2026"
+			},
 			"title": "Strict local manual backup admission verified",
 			"summary": "The fixed local request can now durably admit manual backup work through the existing supervisor path. It has not been executed, and launch remains gated.",
 			"evidence": [
