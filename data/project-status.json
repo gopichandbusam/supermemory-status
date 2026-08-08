@@ -6,7 +6,7 @@
 	},
 	"launchProgress": {
 		"percent": 83,
-		"stage": "Direct SQLite MCP lifecycle runner verified locally",
+		"stage": "Production-matched MCP CI configured",
 		"label": "Launch remains gated"
 	},
 	"deployment": {
@@ -36,7 +36,7 @@
 			"Private workflow safety contract passed 5 of 5 checks",
 			"Default loopback OAuth and MCP lifecycle passed",
 			"The direct runner owns Worker and Vitest output cleanup and emits fixed redacted stages",
-			"The repaired exact GitHub revision still requires Linux verification after push",
+			"The production-matched M1 GitHub lifecycle still requires verification after push",
 			"No production service, backup, restore, routing, DNS, Claude, or ChatGPT gate was run"
 		],
 		"next": ["Authorize external routing and complete client acceptance"],
@@ -90,15 +90,15 @@
 				"iso": "2026-08-07",
 				"display": "August 7, 2026"
 			},
-			"title": "Direct MCP lifecycle runner verified locally",
-			"summary": "The controlled lifecycle now avoids a nested Bun package runner, owns both Vitest output pipes, and reports fixed redacted stages. Local evidence passes; the repaired exact GitHub revision still needs Linux verification and launch remains gated.",
+			"title": "Production-matched MCP CI configured",
+			"summary": "Fixed stages showed that the Linux job reached SQLite-origin startup even though the production store is intentionally Mac only. The workflow now targets an M1 macOS runner; exact hosted verification and launch remain gated.",
 			"evidence": [
 				"Private MCP runner passed 10 of 10 checks",
 				"Private workflow safety contract passed 5 of 5 checks",
-				"Runner TypeScript passed",
 				"The direct SQLite, local Worker, OAuth, and MCP lifecycle reached cleanup complete and returned private e2e passed",
 				"The workflow invokes the lifecycle script directly without a nested package runner",
 				"Vitest output pipes are drained and settled after the exact test child is reaped",
+				"The workflow now uses a production-matched M1 macOS runner instead of Linux",
 				"No production service, protected value, backup, restore, routing, DNS, Claude, or ChatGPT gate was run",
 				"Production acceptance remains not deployed at zero of fifteen; launch progress remains 83 percent and deployment remains not launched"
 			]
