@@ -6,7 +6,7 @@
 	},
 	"launchProgress": {
 		"percent": 83,
-		"stage": "Production-matched MCP CI configured",
+		"stage": "Hosted M1 store boundary under diagnosis",
 		"label": "Launch remains gated"
 	},
 	"deployment": {
@@ -30,13 +30,13 @@
 			"Verified model operator and scheduled backup execution accepted"
 		],
 		"current": [
-			"Focused operation integration passed 194 of 194 checks with 1348 assertions",
+			"Durable mutation authority passed 208 of 208 focused checks with 1585 assertions",
 			"SQLite origin contract passed 8 of 8 checks",
 			"Private MCP runner passed 10 of 10 checks",
-			"Private workflow safety contract passed 5 of 5 checks",
 			"Default loopback OAuth and MCP lifecycle passed",
-			"The direct runner owns Worker and Vitest output cleanup and emits fixed redacted stages",
-			"The production-matched M1 GitHub lifecycle still requires verification after push",
+			"The exact hosted M1 run reached temporary state creation and ended natively before origin startup",
+			"The same production matched lifecycle passes every fixed stage locally on the Mac",
+			"A six marker store boundary probe is prepared for the next exact hosted run",
 			"No production service, backup, restore, routing, DNS, Claude, or ChatGPT gate was run"
 		],
 		"next": ["Authorize external routing and complete client acceptance"],
@@ -90,15 +90,14 @@
 				"iso": "2026-08-07",
 				"display": "August 7, 2026"
 			},
-			"title": "Production-matched MCP CI configured",
-			"summary": "Fixed stages showed that the Linux job reached SQLite-origin startup even though the production store is intentionally Mac only. The workflow now targets an M1 macOS runner; exact hosted verification and launch remain gated.",
+			"title": "Hosted M1 store boundary under diagnosis",
+			"summary": "An exact M1 macOS job passed its platform preflight and reached temporary SQLite state, then ended natively before the origin started. A bounded store probe is ready; local lifecycle and mutation authority checks pass, but hosted verification and launch remain gated.",
 			"evidence": [
-				"Private MCP runner passed 10 of 10 checks",
-				"Private workflow safety contract passed 5 of 5 checks",
-				"The direct SQLite, local Worker, OAuth, and MCP lifecycle reached cleanup complete and returned private e2e passed",
-				"The workflow invokes the lifecycle script directly without a nested package runner",
-				"Vitest output pipes are drained and settled after the exact test child is reaped",
-				"The workflow now uses a production-matched M1 macOS runner instead of Linux",
+				"The exact hosted M1 run passed platform preflight and reached temporary state creation before a native exit",
+				"The same production matched SQLite, local Worker, OAuth, and MCP lifecycle passed every fixed stage locally on the Mac",
+				"A six marker probe isolates module load, memory store, and file lease boundaries without publishing private values",
+				"Durable mutation authority passed 208 of 208 focused checks with 1585 assertions",
+				"Free disk is about 32 GiB and currently exceeds the 10 GiB launch minimum",
 				"No production service, protected value, backup, restore, routing, DNS, Claude, or ChatGPT gate was run",
 				"Production acceptance remains not deployed at zero of fifteen; launch progress remains 83 percent and deployment remains not launched"
 			]
