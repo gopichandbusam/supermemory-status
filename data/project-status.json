@@ -6,7 +6,7 @@
 	},
 	"launchProgress": {
 		"percent": 83,
-		"stage": "Local mutation fencing verified; hosted rerun pending",
+		"stage": "Local verification and liveness observed",
 		"label": "Launch remains gated"
 	},
 	"deployment": {
@@ -30,33 +30,48 @@
 			"Verified model operator and scheduled backup execution accepted"
 		],
 		"current": [
-			"One production supervisor client and mutation gate now fence every local-origin write path",
-			"A real loopback drain race denies a new mutation and settles the admitted mutation before exclusive maintenance",
-			"Focused local-origin mutation-fence coverage passed 128 of 128 checks",
-			"The private MCP dependency graph now includes an isolated local-origin importer and passes clean archived-checkout preflight",
-			"Durable mutation authority passed 208 of 208 focused checks with 1585 assertions",
-			"SQLite origin and private MCP runner coverage passed 8 of 8 and 10 of 10 checks",
-			"The prior exact hosted M1 run reached temporary state creation and ended before origin startup; a combined hosted rerun remains pending",
-			"No production service, backup, restore, routing, DNS, Claude, or ChatGPT gate was run"
+			"Private MCP coverage passed 1046 of 1046 checks across 65 files",
+			"Runner coverage passed 11 of 11 checks and the real lifecycle returned private_e2e_passed",
+			"Canonical local-origin coverage passed 1706 of 1706 checks across 60 files",
+			"Deployment closure verification passed locally",
+			"Supervisor store passed 128 of 128 checks with 770 expectations; operations passed 947 of 947 checks across 49 files with 5968 expectations",
+			"Two reviewed loser-race fixes strengthened operations behavior",
+			"Managed Mac service labels were observed loaded and loopback liveness was alive; authenticated readiness was not run",
+			"Backup execution remains deferred and unrun; public deployment and client acceptance remain not deployed at zero of fifteen; no push or deployment occurred"
 		],
 		"next": ["Authorize external routing and complete client acceptance"],
 		"gated": ["Owner setup, external account access, and launch approval"]
 	},
 	"verification": [
 		{
-			"label": "Local origin mutation fencing",
+			"label": "Private MCP application coverage",
+			"passed": 1046,
+			"total": 1046
+		},
+		{
+			"label": "Private MCP runner coverage",
+			"passed": 11,
+			"total": 11
+		},
+		{
+			"label": "Canonical local-origin coverage",
+			"passed": 1706,
+			"total": 1706
+		},
+		{
+			"label": "Deployment closure verification",
+			"passed": 145,
+			"total": 145
+		},
+		{
+			"label": "Supervisor store coverage",
 			"passed": 128,
 			"total": 128
 		},
 		{
-			"label": "Operations admin coverage",
-			"passed": 320,
-			"total": 320
-		},
-		{
-			"label": "Private MCP application coverage",
-			"passed": 1035,
-			"total": 1035
+			"label": "Full operations coverage",
+			"passed": 947,
+			"total": 947
 		},
 		{
 			"label": "Status site coverage",
@@ -64,24 +79,9 @@
 			"total": 317
 		},
 		{
-			"label": "Admin contract coverage",
-			"passed": 155,
-			"total": 155
-		},
-		{
-			"label": "Browser workspace coverage",
-			"passed": 166,
-			"total": 166
-		},
-		{
-			"label": "Focused operation integration",
-			"passed": 194,
-			"total": 194
-		},
-		{
-			"label": "Private origin and runner coverage",
-			"passed": 18,
-			"total": 18
+			"label": "Local origin mutation fencing",
+			"passed": 128,
+			"total": 128
 		}
 	],
 	"updates": [
@@ -90,17 +90,17 @@
 				"iso": "2026-08-10",
 				"display": "August 10, 2026"
 			},
-			"title": "Local supervisor mutation fencing verified",
-			"summary": "Every local-origin write now crosses one production supervisor client and mutation gate, and a real loopback race proves draining closes new admission without replaying admitted work. This is local code evidence; live deployment remains pending.",
+			"title": "MCP verification and local liveness observed",
+			"summary": "Local MCP verification, operations coverage, deployment closure, and loopback liveness were observed. Authenticated readiness and external acceptance remain unverified.",
 			"evidence": [
-				"Configuration owns and hides the launcher-issued operations capability and clears it at the client lifecycle boundary",
-				"Memory, import, topic preview and apply, admin-data, and graph reconciliation use genuine one-use route-class permits",
-				"The real drain race returned the fixed unavailable response for a distinct second lease with zero business commits",
-				"The admitted mutation committed and acknowledged one settlement before exclusive maintenance began",
-				"Focused local-origin coverage passed 128 of 128 checks; SQLite private-origin and runner coverage passed 8 of 8 and 10 of 10",
-				"Operations admin coverage passed 320 of 320 checks with 2208 assertions",
-				"The hosted M1 dependency issue was isolated to workspace fallthrough; clean archived-checkout preflight passes with the explicit local-origin importer",
-				"No production service, protected value, backup, restore, routing, DNS, Claude, or ChatGPT gate was run; production acceptance remains zero of fifteen"
+				"Private MCP coverage passed 1046 of 1046 checks across 65 files",
+				"Runner coverage passed 11 of 11 checks and the real lifecycle returned private_e2e_passed",
+				"Canonical local-origin coverage passed 1706 of 1706 checks across 60 files",
+				"Deployment closure verification passed locally",
+				"Supervisor store passed 128 of 128 checks with 770 expectations; operations passed 947 of 947 checks across 49 files with 5968 expectations",
+				"Two reviewed loser-race fixes strengthened operations behavior",
+				"Managed Mac service labels were observed loaded and loopback liveness was alive; authenticated readiness was not run",
+				"Backup execution remains deferred and unrun; public deployment and client acceptance remain not deployed at zero of fifteen; no push or deployment occurred"
 			]
 		},
 		{
