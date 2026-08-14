@@ -6,17 +6,17 @@
 	},
 	"launchProgress": {
 		"percent": 83,
-		"stage": "Local verification and liveness observed",
-		"label": "Launch remains gated"
+		"stage": "Hosted edge verified, client acceptance pending",
+		"label": "Client acceptance pending"
 	},
 	"deployment": {
-		"state": "not-launched",
-		"label": "Not launched",
+		"state": "launched",
+		"label": "Private edge launched",
 		"note": "Not a live health check"
 	},
 	"lastUpdated": {
-		"iso": "2026-08-10",
-		"display": "August 10, 2026"
+		"iso": "2026-08-13",
+		"display": "August 13, 2026"
 	},
 	"milestones": {
 		"completed": [
@@ -30,17 +30,19 @@
 			"Verified model operator and scheduled backup execution accepted"
 		],
 		"current": [
-			"Private MCP coverage passed 1046 of 1046 checks across 65 files",
-			"Runner coverage passed 11 of 11 checks and the real lifecycle returned private_e2e_passed",
-			"Canonical local-origin coverage passed 1706 of 1706 checks across 60 files",
-			"Deployment closure verification passed locally",
-			"Supervisor store passed 128 of 128 checks with 770 expectations; operations passed 947 of 947 checks across 49 files with 5968 expectations",
-			"Two reviewed loser-race fixes strengthened operations behavior",
-			"Managed Mac service labels were observed loaded and loopback liveness was alive; authenticated readiness was not run",
-			"Backup execution remains deferred and unrun; public deployment and client acceptance remain not deployed at zero of fifteen; no push or deployment occurred"
+			"Private MCP and downstream safety workflows passed",
+			"Private home and MCP edge passed production verification",
+			"Encrypted backup and isolated restore rehearsal succeeded",
+			"OAuth metadata, signed-out privacy, and canonical MCP challenge passed",
+			"Authorization form origin handling passed focused verification",
+			"Platform limiter outcomes passed focused verification",
+			"Real-client authorization continuation remains under review",
+			"Claude, ChatGPT, and Codex lifecycle acceptance remains pending"
 		],
-		"next": ["Authorize external routing and complete client acceptance"],
-		"gated": ["Owner setup, external account access, and launch approval"]
+		"next": ["Complete real-client authorization and lifecycle acceptance"],
+		"gated": [
+			"Real-client continuation, safe tool use, and revocation acceptance"
+		]
 	},
 	"verification": [
 		{
@@ -87,20 +89,20 @@
 	"updates": [
 		{
 			"date": {
-				"iso": "2026-08-10",
-				"display": "August 10, 2026"
+				"iso": "2026-08-13",
+				"display": "August 13, 2026"
 			},
-			"title": "MCP verification and local liveness observed",
-			"summary": "Local MCP verification, operations coverage, deployment closure, and loopback liveness were observed. Authenticated readiness and external acceptance remain unverified.",
+			"title": "Private edge launched; client acceptance pending",
+			"summary": "The private home, encrypted recovery, and MCP edge passed production verification. Real-client authorization continuation and lifecycle acceptance remain pending.",
 			"evidence": [
-				"Private MCP coverage passed 1046 of 1046 checks across 65 files",
-				"Runner coverage passed 11 of 11 checks and the real lifecycle returned private_e2e_passed",
-				"Canonical local-origin coverage passed 1706 of 1706 checks across 60 files",
-				"Deployment closure verification passed locally",
-				"Supervisor store passed 128 of 128 checks with 770 expectations; operations passed 947 of 947 checks across 49 files with 5968 expectations",
-				"Two reviewed loser-race fixes strengthened operations behavior",
-				"Managed Mac service labels were observed loaded and loopback liveness was alive; authenticated readiness was not run",
-				"Backup execution remains deferred and unrun; public deployment and client acceptance remain not deployed at zero of fifteen; no push or deployment occurred"
+				"Encrypted backup and isolated restore rehearsal succeeded",
+				"DNS, TLS, OAuth metadata, and signed-out privacy passed production verification",
+				"The canonical MCP challenge passed at the hosted edge",
+				"Authorization form origin handling passed focused verification",
+				"Platform limiter outcomes passed focused verification",
+				"Private MCP and downstream safety workflows passed",
+				"Real-client authorization continuation remains under review",
+				"Claude, ChatGPT, and Codex lifecycle acceptance remains pending"
 			]
 		},
 		{
