@@ -6,8 +6,8 @@
 	},
 	"launchProgress": {
 		"percent": 83,
-		"stage": "Hosted edge verified, client acceptance pending",
-		"label": "Client acceptance pending"
+		"stage": "Local OAuth release gates passed; deployment pending",
+		"label": "Local release candidate verified; guarded deployment pending"
 	},
 	"deployment": {
 		"state": "launched",
@@ -15,8 +15,8 @@
 		"note": "Not a live health check"
 	},
 	"lastUpdated": {
-		"iso": "2026-08-13",
-		"display": "August 13, 2026"
+		"iso": "2026-08-14",
+		"display": "August 14, 2026"
 	},
 	"milestones": {
 		"completed": [
@@ -34,21 +34,24 @@
 			"Private home and MCP edge passed production verification",
 			"Encrypted backup and isolated restore rehearsal succeeded",
 			"OAuth metadata, signed-out privacy, and canonical MCP challenge passed",
-			"Authorization form origin handling passed focused verification",
-			"Platform limiter outcomes passed focused verification",
-			"Real-client authorization continuation remains under review",
+			"Source security review and local release gates passed",
+			"The verified correction remains undeployed; fresh retry remains pending",
 			"Claude, ChatGPT, and Codex lifecycle acceptance remains pending"
 		],
-		"next": ["Complete real-client authorization and lifecycle acceptance"],
+		"next": [
+			"Publish the verified correction through the guarded source workflow",
+			"Pass exact-revision workflows before guarded deployment",
+			"Complete one-time connector reconnect and fresh acceptance"
+		],
 		"gated": [
-			"Real-client continuation, safe tool use, and revocation acceptance"
+			"Fresh real-client authorization, safe tool use, and revocation acceptance"
 		]
 	},
 	"verification": [
 		{
 			"label": "Private MCP application coverage",
-			"passed": 1046,
-			"total": 1046
+			"passed": 1314,
+			"total": 1314
 		},
 		{
 			"label": "Private MCP runner coverage",
@@ -87,6 +90,24 @@
 		}
 	],
 	"updates": [
+		{
+			"date": {
+				"iso": "2026-08-14",
+				"display": "August 14, 2026"
+			},
+			"title": "OAuth local release candidate verified; deployment pending",
+			"summary": "The source security review, deterministic bundle validation, closure verification, and exact Worker runtime smoke passed locally. Guarded source and exact-revision workflow checks are required before deployment; fresh real-client acceptance remains pending.",
+			"evidence": [
+				"Source security review passed",
+				"DCR body reading has one five-second total deadline, reading leases expire after 30 seconds, and only ambiguous provider_pending reservations are indefinite",
+				"Two isolated network-denied builds were byte-identical",
+				"The exact Worker bundle passed closure verification",
+				"Two exact Workerd smokes passed OAuth, DCR, MCP compatibility, all 18 tool schemes, and zero outbound requests",
+				"Guarded source and exact-revision workflow checks are required before deployment",
+				"Fresh real-client acceptance remains pending",
+				"Settled private MCP coverage passed 1,314 checks across 69 files"
+			]
+		},
 		{
 			"date": {
 				"iso": "2026-08-13",
@@ -281,21 +302,6 @@
 				"Pagination, search, filters, transfer, backup, recovery, maintenance, and activity screens remain unfinished",
 				"Live services, Cloudflare, DNS, deployment, and clients remain inactive",
 				"No external state changed"
-			]
-		},
-		{
-			"date": {
-				"iso": "2026-08-06",
-				"display": "August 6, 2026"
-			},
-			"title": "Activation operators verified",
-			"summary": "The local OAuth-to-MCP memory lifecycle and reviewed activation operators pass. Launch remains gated by owner setup, iCloud backup readiness, live services, routing, and client acceptance.",
-			"evidence": [
-				"Production-pinned local OAuth and MCP memory lifecycle passed",
-				"Reviewed activation, edge, and isolated restore operators accepted",
-				"Canonical operations gate passed 538 of 538 checks",
-				"All ten required protected values remain absent",
-				"iCloud backup location, local services, external edge, DNS, and clients remain inactive"
 			]
 		}
 	]
